@@ -48,3 +48,11 @@ para nosotros utilizar un texto en **negrita** se utilizan dos "**".
 <html>
 </html>
 ```
+
+## Tablas
+para usar tablas necesitamos las filas con  
+
+|columna 1| columna 2| columna 3|columna 4|
+|-|-|-|-|
+| valor 1 c1|valor 2 c2 |valor 3 c3 | valor4 c4|
+| valor 2 c1|valor 3 c2 |valor 4 c3 | valor5 c4|
