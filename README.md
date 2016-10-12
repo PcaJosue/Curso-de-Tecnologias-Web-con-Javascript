@@ -32,7 +32,19 @@ para nosotros utilizar un texto en **negrita** se utilizan dos "**".
  para utilizar el formateo de codigo dentro de texto plano debemos de utilizar el caracter `tilde invertida`
  para utilizar el formateo de codigo en un bloque de codigo necesitamos utilizar tres tildes invertidas donde se puede especificar el lenguaje de programacion a usarse para el formateo de codigo, justo despued de las 3 tildes invertidas
  
+ * bloque de codigo javascript
  ``` javascript
  var mensaje= "hola mundo";
  ``` 
- 
+* Bloque de codigo de una `consola`
+
+```
+> apt-get update paquete
+```
+
+* Bloque de HTML
+
+```
+<html>
+</html>
+```
