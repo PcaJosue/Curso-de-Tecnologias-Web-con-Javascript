@@ -56,3 +56,27 @@ columna 1| columna 2| columna 3|columna 4
  --- | --- | ---|---
  valor 1 c1|valor 2 c2 |valor 3 c3 | valor4 c4
  valor 2 c1|valor 3 c2 |valor 4 c3 | valor5 c4
+ 
+ ##citas (no de humanos sino de texto)
+ para escribir varias lineas de citas solamente las concatenamos en la siguiente linea utilizando `>`
+ no olvidarse el salto de linea.
+ > yo solo se , que nada se.
+ 
+ > un filosofo random
+ 
+ sino utilizamos una cita en la linea con `>`
+ > y si me matas, ¿Me muero?
+ 
+ ## saltos de linea
+ 
+ para utilizar un salto de linea debemos de utilizar mas de 3 veces el caracter `---`
+ 
+ ---
+ 
+ o el caracter `--`
+ 
+ ---
+ 
+ ## video de youtube
+ 
+ [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
