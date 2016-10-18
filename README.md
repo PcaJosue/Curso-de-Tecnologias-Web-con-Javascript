@@ -23,7 +23,7 @@ para nosotros utilizar un texto en **negrita** se utilizan dos "**".
 ## Links
  para utilizar un [link] (https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript)
  debemos encerrar el texto del link en "[]" y el link en "()"
- 
+ tutoriales: [w3school](http://www.w3schools.com/)
  ## Imagenes
  para nosotros utilizar imagenes debemos de colocar un texto alternativo en brackets[] despues del caracter de exclamasion ! y el link va entre parentesis.
  ![javascritp](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
