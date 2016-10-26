@@ -8,7 +8,7 @@
 
 ### Tema : `Introducción a la Web` 
 ### Fecha de entrega : `2016-10-28`
-### Estudiante : `Vicente Adrian Eguez Sarzosa`
+### Estudiante : `Alexander Josué Pacheco Correa`
 ### Profesor : `Tania Calle - Adrian Eguez`
 ### Número de informe : 1
 
