@@ -1,82 +1,59 @@
-# Repositorio de Tecnologias Web con Js
+# Introducción a la Web
 
-Este repositorio forma parte del  [curso de tecnologias web](https://github.com/adrianeguez/Tec_Web_Js_2016_B)
+### Materia : `Tecnologías Web con JavaScript`
 
-## Enfasis de texto
-para nosotros utilizar un texto en **negrita** se utilizan dos "**".
+<p align="center">
+<img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="300" height="200">
+</p>
 
-* utilizamos "*" para utilizar listas ordenadas
-+ o esto"+"
-- o esto "-"
+### Tema : `Introducción a la Web` 
+### Fecha de entrega : `2016-10-28`
+### Estudiante : `Vicente Adrian Eguez Sarzosa`
+### Profesor : `Tania Calle - Adrian Eguez`
+### Número de informe : 1
 
-* para nosotros utilizar un texto en *cursiva* se utiliza "*"
-* para nosotros ~~tachar un texto~~ se necesita usar "~~"
+<a name="cabecera"></a>
+## Índice de contenidos
 
-## Listar Ordenadas
-1. número de 
-2. de las listas 
-1. ordenadas 
- 1. lista no ordenada1 "utilizamos dos espacios antes del *"
- 3. lista no ordenada2
-5. no importa
 
-## Links
- para utilizar un [link] (https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript)
- debemos encerrar el texto del link en "[]" y el link en "()"
- tutoriales: [w3school](http://www.w3schools.com/)
- ## Imagenes
- para nosotros utilizar imagenes debemos de colocar un texto alternativo en brackets[] despues del caracter de exclamasion ! y el link va entre parentesis.
- ![javascritp](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
- 
- ## formateo de codigo
- para utilizar el formateo de codigo dentro de texto plano debemos de utilizar el caracter `tilde invertida`
- para utilizar el formateo de codigo en un bloque de codigo necesitamos utilizar tres tildes invertidas donde se puede especificar el lenguaje de programacion a usarse para el formateo de codigo, justo despued de las 3 tildes invertidas
- 
- * bloque de codigo javascript
- ``` javascript
- var mensaje= "hola mundo";
- ``` 
-* Bloque de codigo de una `consola`
+- <a href="#tema">Tema</a>
+- <a href="#objetivos">Objetivos</a>
+- <a href="#marco-teorico">Marco Teorico</a>
+<!--
+  * <a href="#hist">Historia y Facts</a>
+  * <a href="#defhtml">Definicion HTML</a>
+-->
+- <a href="#desarrollo">Desarrollo de la Práctica</a>
+- <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
-```
-> apt-get update paquete
-```
+<a name="tema"></a>
+## Tema
+El tema de la práctica es: `Introduccion a la Web`
 
-* Bloque de HTML
+<a name="objetivos"></a>
+## Objetivos
 
-```
-<html>
-</html>
-```
+- Desarrollar el conocimiento Web
+- Conocer herramientas de desarrolladores web como: postman, inspetor web
+- Aprender el uso de lenguaje HTML CSS
 
-## Tablas
-para usar tablas necesitamos las filas con  
+<a name="marco-teorico"></a>
+## Marco Teorico
 
-columna 1| columna 2| columna 3|columna 4
- --- | --- | ---|---
- valor 1 c1|valor 2 c2 |valor 3 c3 | valor4 c4
- valor 2 c1|valor 3 c2 |valor 4 c3 | valor5 c4
- 
- ##citas (no de humanos sino de texto)
- para escribir varias lineas de citas solamente las concatenamos en la siguiente linea utilizando `>`
- no olvidarse el salto de linea.
- > yo solo se , que nada se.
- 
- > un filosofo random
- 
- sino utilizamos una cita en la linea con `>`
- > y si me matas, ¿Me muero?
- 
- ## saltos de linea
- 
- para utilizar un salto de linea debemos de utilizar mas de 3 veces el caracter `---`
- 
- ---
- 
- o el caracter `--`
- 
- ---
- 
- ## video de youtube
- 
- [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+<a name="desarrollo"></a>
+## Desarrollo del informe
+
+
+
+## Conclusiones y Recomendaciones
+
+
+
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+
+# ¡Gracias por su atención!
+
+Author: [Josué Pacheco](https://github.com/PcaJosue)
