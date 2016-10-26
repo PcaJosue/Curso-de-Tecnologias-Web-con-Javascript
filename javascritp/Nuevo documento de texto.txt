@@ -1,0 +1,62 @@
+w3c schools seo boots
+para realizar una pagina web se necesita el servidor web que desplega los archivos que se tienen,
+y se necesita un servidor de aplicaciones, que sirve la aplicacion, una base de datos que guarden los datos.
+
+
+*el diseño web , los usuarios son scanners, es decir se necesita mostrar un foco de atencion.
+*menos es mas, mientras menos informacion se le presenta al usuario es mejor, se debe utilizar el espacio de la mejor manera.
+*navegacion: mientras menos links se necesita para realizar una operacion es mejor, debe estar disponible al usuario
+*velocidad: a veces los usuarios dan preferencia a paginas que carguen mejor.
+	*se debe minificar archivos, es decir reducir la escritura o tamaños a lo mas corto que se pueda.
+	*cambiar variables, para alivianar el codigo.
+*permitan al usuario interactuar con el sistema, feedback is una buena cosa,
+*vistas del monitor
+*plug-ins asegurarte que tus usuarios tengan acceso a aplicaciones deseadas
+*discapacidades, no dejarles de lado..
+
+
+*calidad de la web
+	*usar la version mas actual de html que podamos para tener las mejores capacidades de los navegadores
+	*separar los archivos css en diferentes archivos
+	*validacion web
+	*elemento del titulo: deberian ayudar a encontrarlos facilmente
+	* los formatos de las fechas: la mejor manera es yyy-mmmm-ddd
+*existen algunos estandares pra realizar paginas web accesibles
+	*ejemeplo el alt
+	*no se debe usar tamños de fuentes muy pequeñas o espaciado muy corto
+	*usar fonts que sean lo mejor posible legibles para los usuarios.
+	*usar buenas mezclas de colores en los contrastes
+	*siempre poner un background-color , ya que a veces se tienen imagenes y no se va a ver de la mejor manera
+	
+SEO:
+	search engine optimization
+	se busca optimizar para que el sitio sea visto en plataformas de busqueda, y se debe tener la persepcion de que existen cosas
+	para ser encontrados mas rapido.
+
+	un ejemplo se puede subir su sitio a los diferentes directorios de los buscadores
+
+*WEB HOSTING
+	*se necesita tener una ip publica para poder publicar y que sus paginas sean vistos en el internet, esta ip debe ser fija para que
+	los usuarios puedan conectarse y enonctrar los archivos.
+	*se tienen ips publicas e ips privadas
+*proveedor de servicios de internet
+	puede dar hosting
+	registro de dominios
+	servicios de correos 
+*tipos de hadware
+	*no es lo mismo implementar un servicio en una maquina de escritorio o un servidor 
+*preocuparse del software
+*gastos de mano de obra o contratar un servicio de servidor
+*velocidad de conexion
+*seguridad y estabilidad
+*soporte que pueda realiar el proveedor es preferible de 24horas
+*backups 
+
+
+**Dominio
+	registrar un dominio 
+	elegir un nombre es importante, que debe ser corto y claro y que explique la pagina web
+**subdominio
+
+git fech para acutalizar ramas
+
