@@ -70,11 +70,6 @@ imparte el usuario, y
 solicite. 
 <br>  <a href="http://www.educoas.org/portal/bdigital/contenido/valzacchi/ValzacchiCapitulo-2New.pdf"> tomado de educoas.org</a>
 <a name="metodoshttp"></a>  
-### Herramienta inspeccionar
-Chrome Inspector es una herramienta complementaria de desarrollo web que se usa específicamente para solucionar problemas de código de páginas web en el navegador Chrome.
-
-Para abrir Chrome Inspector, haga clic con el botón secundario en cualquier sitio de la página web y seleccione Inspeccionar elemento en la parte inferior del menú. Se abrirá la consola de inspección de elemento en la parte inferior de la pantalla y verá el código fuente HTML de la página en la parte izquierda, y la secuencia de comandos CSS en la derecha. Esto le permitirá cambiar elementos del código localmente para diagnosticar el problema.
-* en esta herramienta se puede ver el uso de red que se usa al recargar una pagina o una busqueda.
 
 ### HTTP Y sus Métodos
 Este protocolo se denominó HTTP (HyperText Transfer Protocol, o
@@ -118,6 +113,29 @@ Dos métodos comúnmente utilizados para una petición-respuesta entre un client
     *   CONNECT
 
 <br> <a href="http://www.w3schools.com/TAGS/ref_httpmethods.asp"> tomado de W3school</a>  
+### Herramienta inspeccionar
+
+Chrome Inspector es una herramienta complementaria de desarrollo web que se usa específicamente para solucionar problemas de código de páginas web en el navegador Chrome.
+
+Para abrir Chrome Inspector, haga clic con el botón secundario en cualquier sitio de la página web y seleccione Inspeccionar elemento en la parte inferior del menú. Se abrirá la consola de inspección de elemento en la parte inferior de la pantalla y verá el código fuente HTML de la página en la parte izquierda, y la secuencia de comandos CSS en la derecha. Esto le permitirá cambiar elementos del código localmente para diagnosticar el problema.
+* en esta herramienta se puede ver el uso de red que se usa al recargar una pagina o una busqueda.
+
+<img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/network%20inspector.JPG?raw=true" alt="muestra de la pantalla del uso de red de una pagina web con la herramienta inspector">
+
+* también se puede observar la información sobre headers como:
+    - url de donde se envió la página web
+    - método http enviado en nuestro caso get
+    - código http
+    - dirección remota
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/headers%20inspector.JPG?raw=true" alt="muestra de pantalla de la información de header dicha anteriormente">
+### Postman
+Postman es una extensión gratuita para el navegador Google Chrome que permite probar servicios web fácilmente, basta con indicar la url, el método HTTP (POST, GET, etc.) y los parámetros de la petición.
+* en este caso se puede ver que se ha enviado una petición get al api de pokemon go , el cual en un método get se envia el parámetro en el url y en este caso nos devuleve un archivo json.
+
+
+*por otro lado con el método post se puede enviar en el cuerpo parámetros como clave valor
+
+
 ### W3C
 El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones Miembro [ingles], personal [ingles] a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web [ingles]. Liderado por el inventor de la Web Tim Berners-Lee [ingles] y el Director Ejecutivo (CEO) Jeffrey Jaffe [ingles], la misión del W3C es guiar la Web hacia su máximo potencial. Contacta con el W3C para más información
 <br> <a href="http://www.w3c.es/Consorcio/"> tomado de w3c españa</a>
