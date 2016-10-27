@@ -69,7 +69,13 @@ imparte el usuario, y
 * presentar la información en forma asequible a quien la
 solicite. 
 <br>  <a href="http://www.educoas.org/portal/bdigital/contenido/valzacchi/ValzacchiCapitulo-2New.pdf"> tomado de educoas.org</a>
-<a name="metodoshttp"></a>   
+<a name="metodoshttp"></a>  
+### Herramienta inspeccionar
+Chrome Inspector es una herramienta complementaria de desarrollo web que se usa específicamente para solucionar problemas de código de páginas web en el navegador Chrome.
+
+Para abrir Chrome Inspector, haga clic con el botón secundario en cualquier sitio de la página web y seleccione Inspeccionar elemento en la parte inferior del menú. Se abrirá la consola de inspección de elemento en la parte inferior de la pantalla y verá el código fuente HTML de la página en la parte izquierda, y la secuencia de comandos CSS en la derecha. Esto le permitirá cambiar elementos del código localmente para diagnosticar el problema.
+* en esta herramienta se puede ver el uso de red que se usa al recargar una pagina o una busqueda.
+
 ### HTTP Y sus Métodos
 Este protocolo se denominó HTTP (HyperText Transfer Protocol, o
 Protocolo de Transferencia de Hipertexto), y cada vez que se activa
@@ -112,6 +118,49 @@ Dos métodos comúnmente utilizados para una petición-respuesta entre un client
     *   CONNECT
 
 <br> <a href="http://www.w3schools.com/TAGS/ref_httpmethods.asp"> tomado de W3school</a>  
+### W3C
+El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones Miembro [ingles], personal [ingles] a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web [ingles]. Liderado por el inventor de la Web Tim Berners-Lee [ingles] y el Director Ejecutivo (CEO) Jeffrey Jaffe [ingles], la misión del W3C es guiar la Web hacia su máximo potencial. Contacta con el W3C para más información
+<br> <a href="http://www.w3c.es/Consorcio/"> tomado de w3c españa</a>
+
+### W3C schools
+W3Schools está optimizado para el aprendizaje, pruebas y entrenamiento de diferentes lenguajes WEB. Los ejemplos pueden ser simplificadas para mejorar la lectura y la comprensión básica. Tutoriales, referencias y ejemplos son revisados constantemente para evitar errores, pero no se garantiza la corrección completa de todo el contenido.
+<br>
+
+#### Cursos y Tutoriales
+* HTML y CSS
+* JavaScript
+* Lado del Servidor SQL PHP ASP
+* Web Building
+* Tutoriales XML
+ <br> <a href="http://www.w3schools.com/"> links a los recursos</a>
+### XML
+XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extensible"), es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es a su vez un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información
+<br> <a href="https://es.wikipedia.org/wiki/Extensible_Markup_Language"> tomado de wikipedia</a>
+
+### HTML
+<p> HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
+</p>       
+<P>HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se refiere a enlaces que conectan una página Web con otra, haciendo de la Red Mundial (World Wide Web) lo que es hoy. Al crear y subir páginas Web a Internet, te haces participante activo de esta Red Mundial desde que tu sitio está en línea. HTML soporta imágenes y también otro tipo de elementos multimedia. Con la ayuda de HTML todos pueden hacer sítios web estáticos y dinámicos. HTML es el lenguaje que describe la estructura y el contenido semántico de un documento web. El contenido dentro de una página web es etiquetado con elementos HTML como `<head>`, `<title>`, `<body>`, `<article>`, `<section>`, `<p>` etcétera. Estos elementos forman los bloques de construcción de un sitio web.</p>
+
+<br> <a href="https://developer.mozilla.org/es/docs/Web/HTML"> tomado de mozilla foundation</a>
+
+### Estilo css
+
+Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de hojas de estilo para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado . Es muy usado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcetera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas. (Fuente: Wikipedia)
+
+### Doctype
+Una declaración de tipo de documento o DOCTYPE (del inglés document type declaration) asocia un documento SGML o XML particular con una definición de tipo de documento. En la forma serializada de un documento, este se manifiesta como una cadena corta de caracteres de marcado (markup) que se conforma con una sintaxis particular.
+
+A pesar de su nombre, una declaración DTD no sirve para deducir el tipo de documento , aunque originalmente se suponía que lo fuera.
+
+El motor de visualización de HTML en los navegadores web modernos ejecutan el DOCTYPE, en donde el DOCTYPE en un documento es servido como text/html, esto determina el modo de visualización, "quirks mode" o "standards mode". 
+
+#### Lista de Doctypes
+* HTML 5
+* HTML 4.01 Strict
+* HTML 4.01 Transitional
+
+
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
