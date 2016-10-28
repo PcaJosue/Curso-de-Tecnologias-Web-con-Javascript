@@ -129,7 +129,9 @@ npm es el manejador de paquetes por defecto para Node.js, un entorno de ejecuci�
 ### W3C
 El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones Miembro [ingles], personal [ingles] a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web [ingles]. Liderado por el inventor de la Web Tim Berners-Lee [ingles] y el Director Ejecutivo (CEO) Jeffrey Jaffe [ingles], la misión del W3C es guiar la Web hacia su máximo potencial. Contacta con el W3C para más información
 <br> <a href="http://www.w3c.es/Consorcio/"> tomado de w3c españa</a>
-<a name="w3cschools"></a> 
+ 
+<br>
+<a name="w3cschools"></a>
 ### W3C schools
 W3Schools está optimizado para el aprendizaje, pruebas y entrenamiento de diferentes lenguajes WEB. Los ejemplos pueden ser simplificadas para mejorar la lectura y la comprensión básica. Tutoriales, referencias y ejemplos son revisados constantemente para evitar errores, pero no se garantiza la corrección completa de todo el contenido.
 <br>
@@ -142,12 +144,13 @@ W3Schools está optimizado para el aprendizaje, pruebas y entrenamiento de difer
 * Tutoriales XML
  <br> <a href="http://www.w3schools.com/"> links a los recursos</a>
   
-
+<br>
 <a name="xml"></a> 
 ### XML
 
 XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extensible"), es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es a su vez un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información
 <br> <a href="https://es.wikipedia.org/wiki/Extensible_Markup_Language"> tomado de wikipedia</a>
+<br>
 <a name="doctype"></a> 
 ### Doctype
 
