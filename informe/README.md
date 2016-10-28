@@ -141,12 +141,16 @@ W3Schools está optimizado para el aprendizaje, pruebas y entrenamiento de difer
 * Web Building
 * Tutoriales XML
  <br> <a href="http://www.w3schools.com/"> links a los recursos</a>
- <a name="xml"></a> 
+  
+
+<a name="xml"></a> 
 ### XML
+
 XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extensible"), es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es a su vez un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información
 <br> <a href="https://es.wikipedia.org/wiki/Extensible_Markup_Language"> tomado de wikipedia</a>
 <a name="doctype"></a> 
 ### Doctype
+
 Una declaración de tipo de documento o DOCTYPE (del inglés document type declaration) asocia un documento SGML o XML particular con una definición de tipo de documento. En la forma serializada de un documento, este se manifiesta como una cadena corta de caracteres de marcado (markup) que se conforma con una sintaxis particular.
 
 A pesar de su nombre, una declaración DTD no sirve para deducir el tipo de documento , aunque originalmente se suponía que lo fuera.
@@ -154,21 +158,26 @@ A pesar de su nombre, una declaración DTD no sirve para deducir el tipo de docu
 El motor de visualización de HTML en los navegadores web modernos ejecutan el DOCTYPE, en donde el DOCTYPE en un documento es servido como text/html, esto determina el modo de visualización, "quirks mode" o "standards mode". 
 
 #### Lista de Doctypes
+
 * HTML 5
 * HTML 4.01 Strict
 * HTML 4.01 Transitional
 <a name="css"></a> 
+
 ### Estilo css
 
 Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de hojas de estilo para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado . Es muy usado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcetera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas. (Fuente: Wikipedia)
 <a name="html"></a> 
+
 ### HTML
- HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
+
+HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
 
 HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se refiere a enlaces que conectan una página Web con otra, haciendo de la Red Mundial (World Wide Web) lo que es hoy. Al crear y subir páginas Web a Internet, te haces participante activo de esta Red Mundial desde que tu sitio está en línea. HTML soporta imágenes y también otro tipo de elementos multimedia. Con la ayuda de HTML todos pueden hacer sítios web estáticos y dinámicos. HTML es el lenguaje que describe la estructura y el contenido semántico de un documento web. El contenido dentro de una página web es etiquetado con elementos HTML como `<head>`, `<title>`, `<body>`, `<article>`, `<section>`, `<p>` etcétera. Estos elementos forman los bloques de construcción de un sitio web.
 
 <br> <a href="https://developer.mozilla.org/es/docs/Web/HTML"> tomado de mozilla foundation</a>
 <a name="tags"></a> 
+
 ### TAGS
 
 * recordar que siempre debe exister un doctype , un tag `<html>` y de preferencia un `< >` que es donde se especifican tag que no se ven al usuario y un `<body></body>`
