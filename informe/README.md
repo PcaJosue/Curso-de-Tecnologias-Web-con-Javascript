@@ -196,8 +196,8 @@ HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se ref
         
 <a name="desarrollo"></a>
 ## Desarrollo del informe
-
-#### Herramienta inspeccionar
+<br>
+### Herramienta inspeccionar
 
 Chrome Inspector es una herramienta complementaria de desarrollo web que se usa específicamente para solucionar problemas de código de páginas web en el navegador Chrome.
 
@@ -212,14 +212,17 @@ Para abrir Chrome Inspector, haga clic con el botón secundario en cualquier sit
     - código http
     - dirección remota
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/headers%20inspector.JPG?raw=true" alt="muestra de pantalla de la información de header dicha anteriormente">
-#### Postman
+
+<br>
+### Postman
 Postman es una extensión gratuita para el navegador Google Chrome que permite probar servicios web fácilmente, basta con indicar la url, el método HTTP (POST, GET, etc.) y los parámetros de la petición.
 * en este caso se puede ver que se ha enviado una petición get al api de pokemon go , el cual en un método get se envia el parámetro en el url y en este caso nos devuleve un archivo json.
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/postman%20get.JPG?raw=true" alt="metodo get en postman con la api de pokemon go">
 
 *por otro lado con el método post se puede enviar en el cuerpo parámetros como clave valor
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/postman%20post.JPG?raw=true" alt="metodo post en postman con la api de pokemon go">
-#### encabezados
+<br>
+### encabezados
  *  <h1>`<h1>` Encabezado 1</h1>
     *  <h2> `<h2>`Encabezado 2</h2>
     *  <h3>  `<h3>` Encabezado 3</h3>
