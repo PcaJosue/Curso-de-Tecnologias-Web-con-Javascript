@@ -113,28 +113,7 @@ Dos métodos comúnmente utilizados para una petición-respuesta entre un client
     *   CONNECT
 
 <br> <a href="http://www.w3schools.com/TAGS/ref_httpmethods.asp"> tomado de W3school</a>  
-### Herramienta inspeccionar
 
-Chrome Inspector es una herramienta complementaria de desarrollo web que se usa específicamente para solucionar problemas de código de páginas web en el navegador Chrome.
-
-Para abrir Chrome Inspector, haga clic con el botón secundario en cualquier sitio de la página web y seleccione Inspeccionar elemento en la parte inferior del menú. Se abrirá la consola de inspección de elemento en la parte inferior de la pantalla y verá el código fuente HTML de la página en la parte izquierda, y la secuencia de comandos CSS en la derecha. Esto le permitirá cambiar elementos del código localmente para diagnosticar el problema.
-* en esta herramienta se puede ver el uso de red que se usa al recargar una pagina o una busqueda.
-
-<img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/network%20inspector.JPG?raw=true" alt="muestra de la pantalla del uso de red de una pagina web con la herramienta inspector">
-
-* también se puede observar la información sobre headers como:
-    - url de donde se envió la página web
-    - método http enviado en nuestro caso get
-    - código http
-    - dirección remota
-<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/headers%20inspector.JPG?raw=true" alt="muestra de pantalla de la información de header dicha anteriormente">
-### Postman
-Postman es una extensión gratuita para el navegador Google Chrome que permite probar servicios web fácilmente, basta con indicar la url, el método HTTP (POST, GET, etc.) y los parámetros de la petición.
-* en este caso se puede ver que se ha enviado una petición get al api de pokemon go , el cual en un método get se envia el parámetro en el url y en este caso nos devuleve un archivo json.
-<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/postman%20get.JPG?raw=true" alt="metodo get en postman con la api de pokemon go">
-
-*por otro lado con el método post se puede enviar en el cuerpo parámetros como clave valor
-<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/postman%20post.JPG?raw=true" alt="metodo post en postman con la api de pokemon go">
 
 ### NPM (Node Package Manager)
 npm es el manejador de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript.
@@ -174,45 +153,65 @@ El motor de visualización de HTML en los navegadores web modernos ejecutan el D
 Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de hojas de estilo para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado . Es muy usado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcetera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas. (Fuente: Wikipedia)
 
 ### HTML
-<p> HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
-</p>       
-<P>HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se refiere a enlaces que conectan una página Web con otra, haciendo de la Red Mundial (World Wide Web) lo que es hoy. Al crear y subir páginas Web a Internet, te haces participante activo de esta Red Mundial desde que tu sitio está en línea. HTML soporta imágenes y también otro tipo de elementos multimedia. Con la ayuda de HTML todos pueden hacer sítios web estáticos y dinámicos. HTML es el lenguaje que describe la estructura y el contenido semántico de un documento web. El contenido dentro de una página web es etiquetado con elementos HTML como `<head>`, `<title>`, `<body>`, `<article>`, `<section>`, `<p>` etcétera. Estos elementos forman los bloques de construcción de un sitio web.</p>
+ HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
+
+HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se refiere a enlaces que conectan una página Web con otra, haciendo de la Red Mundial (World Wide Web) lo que es hoy. Al crear y subir páginas Web a Internet, te haces participante activo de esta Red Mundial desde que tu sitio está en línea. HTML soporta imágenes y también otro tipo de elementos multimedia. Con la ayuda de HTML todos pueden hacer sítios web estáticos y dinámicos. HTML es el lenguaje que describe la estructura y el contenido semántico de un documento web. El contenido dentro de una página web es etiquetado con elementos HTML como `<head>`, `<title>`, `<body>`, `<article>`, `<section>`, `<p>` etcétera. Estos elementos forman los bloques de construcción de un sitio web.
 
 <br> <a href="https://developer.mozilla.org/es/docs/Web/HTML"> tomado de mozilla foundation</a>
 
 ### TAGS
-*recordar que siempre debe exister un doctype , un tag `<html>` y de preferencia un `< >` que es donde se especifican tag que no se ven al usuario y un `<body></body>`
 
-*los tags son diferentes tamaños de letra para poder poner encabezados diferentes asi 
-    * `<h1>` <h1> Encabezado 1</h1>
-    * `<h2>` <h2> Encabezado 2</h2>
-    * `<h3>` <h3> Encabezado 3</h3>
-    * `<h4>` <h4> Encabezado 4</h4>
-    * `<h5>` <h5> Encabezado 5</h5>
-    * `<h6>` <h6> Encabezado 6</h6>
+* recordar que siempre debe exister un doctype , un tag `<html>` y de preferencia un `< >` que es donde se especifican tag que no se ven al usuario y un `<body></body>`
+
+* los tags son diferentes tamaños de letra para poder poner encabezados diferentes asi van del h1 al h6 siendo el h1 el más grande
+   
 * `<p>` <p> es usado para escribir párrafos enteros y separarlos. </p>
 * Listas `<ul>`,`<ol>`,`<li>`
     ** listas no ordenadas `<ul> </ul>` se abre este tag y para cada uno de los items se usa `<li> texto </li>`
     ** listar ordenadas `<ol>  </ol>` se abre este tag y para cada uno de los items se usa `<li> texto </li>`
 * imagenes se uliliza el tag `<img>` este es uno de los pocos tag que no se cierran.
-#### un ejemplo de paginas web que se pueden realizar con estos tags es:
-      
-    
-    
-    
 
-
-
-
-
-
-
+        
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
+#### Herramienta inspeccionar
 
+Chrome Inspector es una herramienta complementaria de desarrollo web que se usa específicamente para solucionar problemas de código de páginas web en el navegador Chrome.
+
+Para abrir Chrome Inspector, haga clic con el botón secundario en cualquier sitio de la página web y seleccione Inspeccionar elemento en la parte inferior del menú. Se abrirá la consola de inspección de elemento en la parte inferior de la pantalla y verá el código fuente HTML de la página en la parte izquierda, y la secuencia de comandos CSS en la derecha. Esto le permitirá cambiar elementos del código localmente para diagnosticar el problema.
+* en esta herramienta se puede ver el uso de red que se usa al recargar una pagina o una busqueda.
+
+<img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/network%20inspector.JPG?raw=true" alt="muestra de la pantalla del uso de red de una pagina web con la herramienta inspector">
+
+* también se puede observar la información sobre headers como:
+    - url de donde se envió la página web
+    - método http enviado en nuestro caso get
+    - código http
+    - dirección remota
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/headers%20inspector.JPG?raw=true" alt="muestra de pantalla de la información de header dicha anteriormente">
+#### Postman
+Postman es una extensión gratuita para el navegador Google Chrome que permite probar servicios web fácilmente, basta con indicar la url, el método HTTP (POST, GET, etc.) y los parámetros de la petición.
+* en este caso se puede ver que se ha enviado una petición get al api de pokemon go , el cual en un método get se envia el parámetro en el url y en este caso nos devuleve un archivo json.
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/postman%20get.JPG?raw=true" alt="metodo get en postman con la api de pokemon go">
+
+*por otro lado con el método post se puede enviar en el cuerpo parámetros como clave valor
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/postman%20post.JPG?raw=true" alt="metodo post en postman con la api de pokemon go">
+#### encabezados
+ *  <h1>`<h1>` Encabezado 1</h1>
+    *  <h2> `<h2>`Encabezado 2</h2>
+    *  <h3>  `<h3>` Encabezado 3</h3>
+    * <h4> `<h4>`  Encabezado 4</h4>
+    *  <h5> `<h5>` Encabezado 5</h5>
+    *  <h6>`<h6>`  Encabezado 6</h6>
+#### un ejemplo de paginas web que se pueden realizar con los tags vistos tags es:
+   <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/html%20ejemplo%20de%20pagina%20web.JPG?raw=true" alt="pagina web de los cabellero del sodiaco y un ejemplo de listas ordenadas y no ordenadas ">    
 
 ## Conclusiones y Recomendaciones
+*    Entender el funcionamiento de la web y el uso de páginas web es imporanten para poder realizar págingas web de calidad.
+*    las herramientas inspector y postman son excelentes recursos para verificar el funcionamiento de nuestras páginas web y también para entender la web en si .
+*    los tags en html son muy importante y se debe comprender que son en cascada es decir uno contiene a otro y asi sucesivamente.
+*     css son librerias para poder poner formatos y que nuestras páginas web se van con mejor aspecto y otras funcionalidades.
 
 
 
