@@ -230,6 +230,7 @@ Postman es una extensión gratuita para el navegador Google Chrome que permite p
     *  <h5> `<h5>` Encabezado 5</h5>
     *  <h6>`<h6>`  Encabezado 6</h6>
 #### un ejemplo de paginas web que se pueden realizar con los tags vistos tags es:
+  
    <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/html%20ejemplo%20de%20pagina%20web.JPG?raw=true" alt="pagina web de los cabellero del sodiaco y un ejemplo de listas ordenadas y no ordenadas ">    
 
 ## Conclusiones y Recomendaciones
