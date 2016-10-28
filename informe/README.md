@@ -204,7 +204,7 @@ Chrome Inspector es una herramienta complementaria de desarrollo web que se usa 
 Para abrir Chrome Inspector, haga clic con el botón secundario en cualquier sitio de la página web y seleccione Inspeccionar elemento en la parte inferior del menú. Se abrirá la consola de inspección de elemento en la parte inferior de la pantalla y verá el código fuente HTML de la página en la parte izquierda, y la secuencia de comandos CSS en la derecha. Esto le permitirá cambiar elementos del código localmente para diagnosticar el problema.
 * en esta herramienta se puede ver el uso de red que se usa al recargar una pagina o una busqueda.
 
-<img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/network%20inspector.JPG?raw=true" alt="muestra de la pantalla del uso de red de una pagina web con la herramienta inspector">
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/Html/informe/imagenes/network%20inspector.JPG?raw=true" alt="muestra de la pantalla del uso de red de una pagina web con la herramienta inspector">
 
 * también se puede observar la información sobre headers como:
     - url de donde se envió la página web
