@@ -19,10 +19,17 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-<!--
-  * <a href="#hist">Historia y Facts</a>
-  * <a href="#defhtml">Definicion HTML</a>
--->
+    * <a href="#www"> World Wide Web </a>
+    * <a href="#browser"> Browsers </a>
+    * <a href="#metodos http">Métodos http </a>
+    * <a href="#npm"> NPM </a>
+    * <a href="#w3c"> w3c </a>
+    * <a href="#w3cschools"> w3c schools </a>
+    * <a href="#xml"> XML </a>
+    * <a href="#doctype">Doctype </a>
+    * <a href="#css"> CSS </a>
+    * <a href="#html"> HTML </a>
+    * <a href="#tags">TAGS </a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -114,15 +121,15 @@ Dos métodos comúnmente utilizados para una petición-respuesta entre un client
 
 <br> <a href="http://www.w3schools.com/TAGS/ref_httpmethods.asp"> tomado de W3school</a>  
 
-
+<a name="npm"></a> 
 ### NPM (Node Package Manager)
 npm es el manejador de paquetes por defecto para Node.js, un entorno de ejecución para JavaScript.
 
-
+<a name="w3c"></a> 
 ### W3C
 El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones Miembro [ingles], personal [ingles] a tiempo completo y el público en general trabajan conjuntamente para desarrollar estándares Web [ingles]. Liderado por el inventor de la Web Tim Berners-Lee [ingles] y el Director Ejecutivo (CEO) Jeffrey Jaffe [ingles], la misión del W3C es guiar la Web hacia su máximo potencial. Contacta con el W3C para más información
 <br> <a href="http://www.w3c.es/Consorcio/"> tomado de w3c españa</a>
-
+<a name="w3cschools"></a> 
 ### W3C schools
 W3Schools está optimizado para el aprendizaje, pruebas y entrenamiento de diferentes lenguajes WEB. Los ejemplos pueden ser simplificadas para mejorar la lectura y la comprensión básica. Tutoriales, referencias y ejemplos son revisados constantemente para evitar errores, pero no se garantiza la corrección completa de todo el contenido.
 <br>
@@ -134,9 +141,11 @@ W3Schools está optimizado para el aprendizaje, pruebas y entrenamiento de difer
 * Web Building
 * Tutoriales XML
  <br> <a href="http://www.w3schools.com/"> links a los recursos</a>
+ <a name="xml"></a> 
 ### XML
 XML, siglas en inglés de eXtensible Markup Language ("lenguaje de marcas Extensible"), es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos (de la misma manera que HTML es a su vez un lenguaje definido por SGML) para estructurar documentos grandes. A diferencia de otros lenguajes, XML da soporte a bases de datos, siendo útil cuando varias aplicaciones deben comunicarse entre sí o integrar información
 <br> <a href="https://es.wikipedia.org/wiki/Extensible_Markup_Language"> tomado de wikipedia</a>
+<a name="doctype"></a> 
 ### Doctype
 Una declaración de tipo de documento o DOCTYPE (del inglés document type declaration) asocia un documento SGML o XML particular con una definición de tipo de documento. En la forma serializada de un documento, este se manifiesta como una cadena corta de caracteres de marcado (markup) que se conforma con una sintaxis particular.
 
@@ -148,17 +157,18 @@ El motor de visualización de HTML en los navegadores web modernos ejecutan el D
 * HTML 5
 * HTML 4.01 Strict
 * HTML 4.01 Transitional
+<a name="css"></a> 
 ### Estilo css
 
 Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de hojas de estilo para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado . Es muy usado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcetera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas. (Fuente: Wikipedia)
-
+<a name="html"></a> 
 ### HTML
  HTML, que significa Lenguaje de Marcado para Hipertextos (HyperText Markup Language) es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.
 
 HTML le da "valor añadido" a un texto estándar en español. Hiper Texto se refiere a enlaces que conectan una página Web con otra, haciendo de la Red Mundial (World Wide Web) lo que es hoy. Al crear y subir páginas Web a Internet, te haces participante activo de esta Red Mundial desde que tu sitio está en línea. HTML soporta imágenes y también otro tipo de elementos multimedia. Con la ayuda de HTML todos pueden hacer sítios web estáticos y dinámicos. HTML es el lenguaje que describe la estructura y el contenido semántico de un documento web. El contenido dentro de una página web es etiquetado con elementos HTML como `<head>`, `<title>`, `<body>`, `<article>`, `<section>`, `<p>` etcétera. Estos elementos forman los bloques de construcción de un sitio web.
 
 <br> <a href="https://developer.mozilla.org/es/docs/Web/HTML"> tomado de mozilla foundation</a>
-
+<a name="tags"></a> 
 ### TAGS
 
 * recordar que siempre debe exister un doctype , un tag `<html>` y de preferencia un `< >` que es donde se especifican tag que no se ven al usuario y un `<body></body>`
