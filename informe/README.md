@@ -107,17 +107,20 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
 <ol>
 <li> **Tags:** 
  
-
+<br>
     <img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/propio%20tag.png?raw=true" alt="ejemplo de poner estilo en un propio tag">
      </li>
      
-    <li> **Clases:** 
+<li> **Clases:** 
+    <br>
   <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/clases.JPG?raw=true" alt="ejemplo de poner estilo definiendo una clase ">
-   </li>
-    <li>**ID:**
+  
+</li>
+<li> **ID:**
+    <br>
     <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/identificador.PNG?raw=true" alt="ejemplo de poner estilo con un identificadors">
    
-   </li>    
+</li>    
 </ol>
 ### Hojas de estilos en páginas diferentes
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/hojas%20de%20estilos.png?raw=true" alt="muestra de la carpeta estilos, de los diferentes archivos .css que pueden contener y la referencia a esos archivos">
