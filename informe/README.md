@@ -58,6 +58,7 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
  * ##### Tags
 <p> html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
  `parrafo { background-color: blueviolet  }` </p>  
+ 
 * ##### Clases: 
   Para darle formato (aplicar un diseño, un aspecto) a un elemento de html como puede ser un `<p>` se utilizan las clases (class), que van definidas en la hoja de estilos.
 
