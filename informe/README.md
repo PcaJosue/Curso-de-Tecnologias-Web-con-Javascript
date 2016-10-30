@@ -6,7 +6,7 @@
 <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="300" height="200">
 </p>
 
-### Tema : `Estilos CSS` 
+### Tema : `Introducción a CSS` 
 ### Fecha de entrega : `2016-11-02`
 ### Estudiante : `Alexander Josué Pacheco Correa`
 ### Profesor : `Tania Calle - Adrian Eguez`
@@ -25,17 +25,20 @@
 
 <a name="tema"></a>
 ## Tema
-El tema de la práctica es: `Estilos CSS`
+El tema de la práctica es: `Introducción a CSS`
 
 <a name="objetivos"></a>
 ## Objetivos
 
-- Desarrollar el conocimiento Web
-- Conocer herramientas de desarrolladores web como: postman, inspetor web
+- Desarrollar el conocimiento de CSS
+- Conocer bibliotecas de desarrolladores de estilos como: bootstrap
 - Aprender el uso de lenguaje HTML CSS
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
+### CSS 
+    
+### BOOTSTRAP
 
         
 <a name="desarrollo"></a>
