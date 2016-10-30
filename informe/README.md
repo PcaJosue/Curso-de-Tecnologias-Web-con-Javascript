@@ -73,6 +73,22 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
  <p>El atributo global id define un identificador único (ID) el cual no debe repetirse en todo el documento. Su proposito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS).
 
 El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor del sitio no debe usarlo para proporcionar información. De forma particular, en sentido semántico por ejemplo, no debe ser derivado de la misma cadena.</p>
+ * ##### Hojas de estilo css
+ <p> los estilos CSS pueden estar tanto dentro del archivo de trabajo con extension .html o bien fuera con extension .css solo que, para este ultimo en la hoja de trabajo se debe referenciar donde se encuentra dicho archivo de estilos, asi tambn se puede agregar diferentes hojas de estilos pero si tags comunes se sobre escriben siempre quedará vigente el último.</p>
+ 
+  * ##### clase containers
+    *   Contenedores facilitan la igualdad
+    *   El W3-container ofrece igualdad de todos los elementos contenedores HTML:
+        *   márgenes comunes
+        * rellenos comunes
+        *  alineaciones comunes
+        * fuentes comunes
+        * Los colores más comunes
+    * Para utilizar un contenedor, basta con añadir un w3-contenedor de clase a cualquier elemento
+* ##### clase row
+Lo más importante de entender en un principio es el sistema de grillas que plantea la librería Bootstrap.
+Debemos pensar para armar nuestro esquema de la página que tenemos la posibilidad de definir filas y en cada fila definir de 1 hasta 12 columnas. Cada columna con un ancho relativo a ese número 12.
+Luego Bootstrap se encarga de colapsar las columnas cuando se accede al sitio desde un dispositivo con una capacidad limitada en cuanto al ancho en píxeles (esto permite una experiencia más placentera al visitante que accede a nuestra página desde un celular con capacidades limitadas)
 
 ### BOOTSTRAP
 Twitter Bootstrap es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como, extensiones de JavaScript opcionales adicionales
@@ -99,12 +115,15 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
   <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/clases.JPG?raw=true" alt="ejemplo de poner estilo definiendo una clase ">
    </li>
     <li>**ID:**
-    <img src="" alt="">
+    <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/identificador.PNG?raw=true" alt="ejemplo de poner estilo con un identificadors">
    
-   </li>
-    
-    
+   </li>    
 </ol>
+### Hojas de estilos en páginas diferentes
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/hojas%20de%20estilos.png?raw=true" alt="muestra de la carpeta estilos, de los diferentes archivos .css que pueden contener y la referencia a esos archivos">
+
+### 
+
 
 ## Conclusiones y Recomendaciones
 
