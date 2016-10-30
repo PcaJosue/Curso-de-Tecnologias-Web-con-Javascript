@@ -87,11 +87,14 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
  El atributo global id define un identificador único (ID) el cual no debe repetirse en todo el documento. Su proposito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS).
 
 El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor del sitio no debe usarlo para proporcionar información. De forma particular, en sentido semántico por ejemplo, no debe ser derivado de la misma cadena.
+
  * ##### Hojas de estilo css
+ 
  los estilos CSS pueden estar tanto dentro del archivo de trabajo con extension .html o bien fuera con extension .css solo que, para este ultimo en la hoja de trabajo se debe referenciar donde se encuentra dicho archivo de estilos, asi tambn se puede agregar diferentes hojas de estilos pero si tags comunes se sobre escriben siempre quedará vigente el último.
  <a name="containers"></a>
 
 * ##### clase containers
+
     *   Contenedores facilitan la igualdad
     *   El W3-container ofrece igualdad de todos los elementos contenedores HTML:
         *   márgenes comunes
@@ -101,7 +104,8 @@ El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor
         * Los colores más comunes
     * Para utilizar un contenedor, basta con añadir un w3-contenedor de clase a cualquier elemento
 <a name="row"></a>
- * ##### clase row
+
+* ##### clase row
  
 Lo más importante de entender en un principio es el sistema de grillas que plantea la librería Bootstrap.
 Debemos pensar para armar nuestro esquema de la página que tenemos la posibilidad de definir filas y en cada fila definir de 1 hasta 12 columnas. Cada columna con un ancho relativo a ese número 12.
