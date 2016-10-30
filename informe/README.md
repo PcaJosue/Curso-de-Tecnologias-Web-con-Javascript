@@ -73,7 +73,7 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
 
  `parrafo { background-color: blueviolet  }` 
  <a name="clases"></a>
- * ##### Clases: 
+* ##### Clases: 
   Para darle formato (aplicar un diseño, un aspecto) a un elemento de html como puede ser un `<p>` se utilizan las clases (class), que van definidas en la hoja de estilos.
 
     Así pues podemos crear en la hoja de estilos la clase "importante" y la aplicaremos a aquellos párrafos que queramos resaltar.
@@ -127,17 +127,19 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
 
 ### Formas de poner estilos 
 <ol>
-<li> **Tags:** 
+<li> ** Tags: ** 
  
-    <img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/propio%20tag.png?raw=true" alt="ejemplo de poner estilo en un propio tag">
+    <img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/propio%20tag.png?raw=true" alt="ejemplo de poner estilo en un propio tag"> 
+    
      </li>
      
-<li> **Clases:** 
+<li> ** Clases: ** 
        
  <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/clases.png?raw=true" alt="ejemplo de parrafo agregado estilo con clases">
   
 </li>
-<li> **ID:**
+<li> ** ID: **
+  
    <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/identificador.PNG?raw=true" alt="ejemplo de parrafo agregado estilo con un identificador">
    
 </li>    
