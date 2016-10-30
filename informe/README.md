@@ -49,7 +49,9 @@ El tema de la práctica es: `Introducción a CSS`
 
     
 * #### ¿Para qué sirve CSS?
+
     CSS se utiliza para dar estilo a documentos HTML y XML, separando el contenido de la presentación. Los Estilos definen la forma de mostrar los elementos HTML y XML. CSS permite a los desarrolladores Web controlar el estilo y el formato de múltiples páginas Web al mismo tiempo. Cualquier cambio en el estilo marcado para un elemento en la CSS afectará a todas las páginas vinculadas a esa CSS en las que aparezca ese elemento.
+    
 * #### ¿Cómo funciona?
     CSS funciona a base de reglas, es decir, declaraciones sobre el estilo de uno o más elementos. Las hojas de estilo están compuestas por una o más de esas reglas aplicadas a un documento HTML o XML. La regla tiene dos partes: un selector y la declaración. A su vez la declaración está compuesta por una propiedad y el valor que se le asigne.
 
@@ -61,14 +63,17 @@ El tema de la práctica es: `Introducción a CSS`
  
 
 El selector funciona como enlace entre el documento y el estilo, especificando los elementos que se van a ver afectados por esa declaración. La declaración es la parte de la regla que establece cuál será el efecto. En el ejemplo anterior, el selector h1 indica que todos los elementos h1 se verán afectados por la declaración donde se establece que la propiedad color va a tener el valor red (rojo) para todos los elementos h1 del documento o documentos que estén vinculados a esa hoja de estilos.
+
 <a href="http://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo">tomado de W3C español</a>
+
 <a name="tags"></a>
+
 * ##### Tags
  html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
 
  `parrafo { background-color: blueviolet  }` 
  <a name="clases"></a>
-* ##### Clases: 
+ * ##### Clases: 
   Para darle formato (aplicar un diseño, un aspecto) a un elemento de html como puede ser un `<p>` se utilizan las clases (class), que van definidas en la hoja de estilos.
 
     Así pues podemos crear en la hoja de estilos la clase "importante" y la aplicaremos a aquellos párrafos que queramos resaltar.
@@ -77,7 +82,7 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
     Cuando queramos destacar un párrafo sólo tenemos que asignarle esa clase: `<p class='importante'>asi se aplican estilos con clases.</p>`
     
 <a name="id"></a>
-* ##### ID: 
+ * ##### ID: 
  
  El atributo global id define un identificador único (ID) el cual no debe repetirse en todo el documento. Su proposito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS).
 
@@ -85,7 +90,8 @@ El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor
  * ##### Hojas de estilo css
  los estilos CSS pueden estar tanto dentro del archivo de trabajo con extension .html o bien fuera con extension .css solo que, para este ultimo en la hoja de trabajo se debe referenciar donde se encuentra dicho archivo de estilos, asi tambn se puede agregar diferentes hojas de estilos pero si tags comunes se sobre escriben siempre quedará vigente el último.
  <a name="containers"></a>
- * ##### clase containers
+
+* ##### clase containers
     *   Contenedores facilitan la igualdad
     *   El W3-container ofrece igualdad de todos los elementos contenedores HTML:
         *   márgenes comunes
@@ -96,9 +102,11 @@ El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor
     * Para utilizar un contenedor, basta con añadir un w3-contenedor de clase a cualquier elemento
 <a name="row"></a>
  * ##### clase row
+ 
 Lo más importante de entender en un principio es el sistema de grillas que plantea la librería Bootstrap.
 Debemos pensar para armar nuestro esquema de la página que tenemos la posibilidad de definir filas y en cada fila definir de 1 hasta 12 columnas. Cada columna con un ancho relativo a ese número 12.
 Luego Bootstrap se encarga de colapsar las columnas cuando se accede al sitio desde un dispositivo con una capacidad limitada en cuanto al ancho en píxeles (esto permite una experiencia más placentera al visitante que accede a nuestra página desde un celular con capacidades limitadas)
+
 <a name="bootstrap"></a>
 ### BOOTSTRAP
 Twitter Bootstrap es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como, extensiones de JavaScript opcionales adicionales
@@ -113,7 +121,7 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 
-### formas de poner estilos 
+### Formas de poner estilos 
 <ol>
 <li> **Tags:** 
  
