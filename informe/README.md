@@ -50,11 +50,30 @@ El tema de la práctica es: `Introducción a CSS`
     `h1 es el selector`
 
     `{color: red;} es la declaración`
+ 
 
 El selector funciona como enlace entre el documento y el estilo, especificando los elementos que se van a ver afectados por esa declaración. La declaración es la parte de la regla que establece cuál será el efecto. En el ejemplo anterior, el selector h1 indica que todos los elementos h1 se verán afectados por la declaración donde se establece que la propiedad color va a tener el valor red (rojo) para todos los elementos h1 del documento o documentos que estén vinculados a esa hoja de estilos.
 <a href="http://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo">tomado de W3C español</a>
- * ##### 
+
+ * ##### Tags
+<p> html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
+ `parrafo { background-color: blueviolet  }` </p>  
+ 
+* ##### Clases: 
+  Para darle formato (aplicar un diseño, un aspecto) a un elemento de html como puede ser un `<p>` se utilizan las clases (class), que van definidas en la hoja de estilos.
+
+    Así pues podemos crear en la hoja de estilos la clase "importante" y la aplicaremos a aquellos párrafos que queramos resaltar.
+
+    En el archivo CSS (que es un simple archivo de texto, pero que tiene la extensión .css) definimos la clase "importante", las clases siempre se definen poniendo un punto (.) delante.
+    Cuando queramos destacar un párrafo sólo tenemos que asignarle esa clase: `<p class='importante'>asi se aplican estilos con clases.</p>`
     
+    
+ * ##### ID: 
+ 
+ <p>El atributo global id define un identificador único (ID) el cual no debe repetirse en todo el documento. Su proposito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS).
+
+El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor del sitio no debe usarlo para proporcionar información. De forma particular, en sentido semántico por ejemplo, no debe ser derivado de la misma cadena.</p>
+
 ### BOOTSTRAP
 Twitter Bootstrap es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como, extensiones de JavaScript opcionales adicionales
 
@@ -70,18 +89,19 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
 
 ### formas de poner estilos 
 <ol>
-<li> **Tags:** html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
- `parrafo { background-color: blueviolet  }` </li>
-<img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/propio%20tag.png?raw=true" alt="ejemplo de poner estilo en un propio tag">
+<li> **Tags:** 
+ 
+
+    <img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/propio%20tag.png?raw=true" alt="ejemplo de poner estilo en un propio tag">
+     </li>
      
-    <li> **Clases:** Para darle formato (aplicar un diseño, un aspecto) a un elemento de html como puede ser un <p> se utilizan las clases (class), que van definidas en la hoja de estilos.
-
-Así pues podemos crear en la hoja de estilos la clase "importante" y la aplicaremos a aquellos párrafos que queramos resaltar.
-
-En el archivo CSS (que es un simple archivo de texto, pero que tiene la extensión .css) definimos la clase "importante", las clases siempre se definen poniendo un punto (.) delante.
-Cuando queramos destacar un párrafo sólo tenemos que asignarle esa clase: `<p class='importante'>asi se aplican estilos con clases.</p>`
+    <li> **Clases:** 
+  <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/clases.JPG?raw=true" alt="ejemplo de poner estilo definiendo una clase ">
    </li>
-    <li>ID</li>
+    <li>**ID:**
+    <img src="" alt="">
+   
+   </li>
     
     
 </ol>
