@@ -19,7 +19,13 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-    
+    - <a href="#css">CSS</a>
+        - <a href="#tags"> ETIQUETAS</a>
+        - <a href="#clases"> Clases</a>
+        - <a href="#id">Identificadores</a>
+        - <a href="#containers">Contenedores</a>
+        - <a href="#row">Clase Row</a>
+        - <a href="#bootstrap">Bootstrap</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -36,6 +42,7 @@ El tema de la práctica es: `Introducción a CSS`
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
+<a name="css"></a>
 ### CSS 
 
 <p> Hojas de Estilo en Cascada (Cascading Style Sheets), es un mecanismo simple que describe cómo se va a mostrar un documento en la pantalla, o cómo se va a imprimir, o incluso cómo va a ser pronunciada la información presente en ese documento a través de un dispositivo de lectura. Esta forma de descripción de estilos ofrece a los desarrolladores el control total sobre estilo y formato de sus documentos. </p>
@@ -55,11 +62,12 @@ El tema de la práctica es: `Introducción a CSS`
 
 El selector funciona como enlace entre el documento y el estilo, especificando los elementos que se van a ver afectados por esa declaración. La declaración es la parte de la regla que establece cuál será el efecto. En el ejemplo anterior, el selector h1 indica que todos los elementos h1 se verán afectados por la declaración donde se establece que la propiedad color va a tener el valor red (rojo) para todos los elementos h1 del documento o documentos que estén vinculados a esa hoja de estilos.
 <a href="http://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo">tomado de W3C español</a>
+<a name="tags"></a>
 * ##### Tags
  html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
 
  `parrafo { background-color: blueviolet  }` 
- 
+ <a name="clases"></a>
 * ##### Clases: 
   Para darle formato (aplicar un diseño, un aspecto) a un elemento de html como puede ser un `<p>` se utilizan las clases (class), que van definidas en la hoja de estilos.
 
@@ -68,7 +76,7 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
     En el archivo CSS (que es un simple archivo de texto, pero que tiene la extensión .css) definimos la clase "importante", las clases siempre se definen poniendo un punto (.) delante.
     Cuando queramos destacar un párrafo sólo tenemos que asignarle esa clase: `<p class='importante'>asi se aplican estilos con clases.</p>`
     
-    
+<a name="id"></a>
 * ##### ID: 
  
  El atributo global id define un identificador único (ID) el cual no debe repetirse en todo el documento. Su proposito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS).
@@ -76,6 +84,7 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
 El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor del sitio no debe usarlo para proporcionar información. De forma particular, en sentido semántico por ejemplo, no debe ser derivado de la misma cadena.
  * ##### Hojas de estilo css
  los estilos CSS pueden estar tanto dentro del archivo de trabajo con extension .html o bien fuera con extension .css solo que, para este ultimo en la hoja de trabajo se debe referenciar donde se encuentra dicho archivo de estilos, asi tambn se puede agregar diferentes hojas de estilos pero si tags comunes se sobre escriben siempre quedará vigente el último.
+ <a name="containers"></a>
  * ##### clase containers
     *   Contenedores facilitan la igualdad
     *   El W3-container ofrece igualdad de todos los elementos contenedores HTML:
@@ -85,12 +94,12 @@ El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor
         * fuentes comunes
         * Los colores más comunes
     * Para utilizar un contenedor, basta con añadir un w3-contenedor de clase a cualquier elemento
-    
+<a name="row"></a>
  * ##### clase row
 Lo más importante de entender en un principio es el sistema de grillas que plantea la librería Bootstrap.
 Debemos pensar para armar nuestro esquema de la página que tenemos la posibilidad de definir filas y en cada fila definir de 1 hasta 12 columnas. Cada columna con un ancho relativo a ese número 12.
 Luego Bootstrap se encarga de colapsar las columnas cuando se accede al sitio desde un dispositivo con una capacidad limitada en cuanto al ancho en píxeles (esto permite una experiencia más placentera al visitante que accede a nuestra página desde un celular con capacidades limitadas)
-
+<a name="bootstrap"></a>
 ### BOOTSTRAP
 Twitter Bootstrap es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como, extensiones de JavaScript opcionales adicionales
 
