@@ -1,6 +1,6 @@
--# Clase 1 		 
+# Clase 1 		 
   		  
- -## Introduccion a la web		
+ ## Introduccion a la web		
   		  
   Dentro de la Clase de Introduccion Web nos referimos a los siguientes temas:		  D
   		  
