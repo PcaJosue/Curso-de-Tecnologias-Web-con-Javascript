@@ -55,7 +55,7 @@ El tema de la práctica es: `Introducción a CSS`
 El selector funciona como enlace entre el documento y el estilo, especificando los elementos que se van a ver afectados por esa declaración. La declaración es la parte de la regla que establece cuál será el efecto. En el ejemplo anterior, el selector h1 indica que todos los elementos h1 se verán afectados por la declaración donde se establece que la propiedad color va a tener el valor red (rojo) para todos los elementos h1 del documento o documentos que estén vinculados a esa hoja de estilos.
 <a href="http://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo">tomado de W3C español</a>
 
- * ##### Tags
+* ##### Tags
 <p> html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
  `parrafo { background-color: blueviolet  }` </p>  
  
@@ -128,7 +128,9 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
 
 ## Conclusiones y Recomendaciones
 
-
+ * se puede trabajar estilos para cada parte del código teniendo cada participante un archivo diferente, eso sí no se deben usar tags comunes para dicha tarea
+ *  bootstrap en una biblioteca importante para el manejo de estilos ya que nos permite tener variedad de estilos que han colaborado en todo el mundo
+ * el manejo de grids no solo se usa para columnas sino para dividir de mejor manera nuestra página.
 
 
 <br>
