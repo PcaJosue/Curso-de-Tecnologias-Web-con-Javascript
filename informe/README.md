@@ -56,8 +56,9 @@ El tema de la práctica es: `Introducción a CSS`
 El selector funciona como enlace entre el documento y el estilo, especificando los elementos que se van a ver afectados por esa declaración. La declaración es la parte de la regla que establece cuál será el efecto. En el ejemplo anterior, el selector h1 indica que todos los elementos h1 se verán afectados por la declaración donde se establece que la propiedad color va a tener el valor red (rojo) para todos los elementos h1 del documento o documentos que estén vinculados a esa hoja de estilos.
 <a href="http://www.w3c.es/Divulgacion/GuiasBreves/HojasEstilo">tomado de W3C español</a>
 * ##### Tags
-<p> html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
- `parrafo { background-color: blueviolet  }` </p>  
+ html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
+
+ `parrafo { background-color: blueviolet  }` 
  
 * ##### Clases: 
   Para darle formato (aplicar un diseño, un aspecto) a un elemento de html como puede ser un `<p>` se utilizan las clases (class), que van definidas en la hoja de estilos.
@@ -70,11 +71,11 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
     
 * ##### ID: 
  
- <p>El atributo global id define un identificador único (ID) el cual no debe repetirse en todo el documento. Su proposito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS).
+ El atributo global id define un identificador único (ID) el cual no debe repetirse en todo el documento. Su proposito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS).
 
-El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor del sitio no debe usarlo para proporcionar información. De forma particular, en sentido semántico por ejemplo, no debe ser derivado de la misma cadena.</p>
+El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor del sitio no debe usarlo para proporcionar información. De forma particular, en sentido semántico por ejemplo, no debe ser derivado de la misma cadena.
  * ##### Hojas de estilo css
- <p> los estilos CSS pueden estar tanto dentro del archivo de trabajo con extension .html o bien fuera con extension .css solo que, para este ultimo en la hoja de trabajo se debe referenciar donde se encuentra dicho archivo de estilos, asi tambn se puede agregar diferentes hojas de estilos pero si tags comunes se sobre escriben siempre quedará vigente el último.</p>
+ los estilos CSS pueden estar tanto dentro del archivo de trabajo con extension .html o bien fuera con extension .css solo que, para este ultimo en la hoja de trabajo se debe referenciar donde se encuentra dicho archivo de estilos, asi tambn se puede agregar diferentes hojas de estilos pero si tags comunes se sobre escriben siempre quedará vigente el último.
  
 * ##### clase containers
     *   Contenedores facilitan la igualdad
@@ -85,6 +86,7 @@ El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor
         * fuentes comunes
         * Los colores más comunes
     * Para utilizar un contenedor, basta con añadir un w3-contenedor de clase a cualquier elemento
+    
 * ##### clase row
 Lo más importante de entender en un principio es el sistema de grillas que plantea la librería Bootstrap.
 Debemos pensar para armar nuestro esquema de la página que tenemos la posibilidad de definir filas y en cada fila definir de 1 hasta 12 columnas. Cada columna con un ancho relativo a ese número 12.
@@ -107,18 +109,18 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
 <ol>
 <li> **Tags:** 
  
-<br>
+
     <img src=" https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/propio%20tag.png?raw=true" alt="ejemplo de poner estilo en un propio tag">
      </li>
      
 <li> **Clases:** 
-    <br>
-  <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/clases.JPG?raw=true" alt="ejemplo de poner estilo definiendo una clase ">
+    
+    
+ <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/clases.png?raw=true" alt="ejemplo de parrafo agregado estilo con clases">
   
 </li>
 <li> **ID:**
-    <br>
-    <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/identificador.PNG?raw=true" alt="ejemplo de poner estilo con un identificadors">
+   <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/identificador.PNG?raw=true" alt="ejemplo de parrafo agregado estilo con un identificador">
    
 </li>    
 </ol>
