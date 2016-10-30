@@ -58,7 +58,6 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
  * ##### Tags
 <p> html 5 permite poner tags propios y darles un estilo diferente a cada uno de estos asi como color en un backgroundy muchas otras cosas mas, para esto se debe abrir el tag por ejemplo: `<parrafo> aqui va texto </parrafo>` en la misma hoja o en una hoja diferentes de estilos se llama al tag y se le agrega un estilo . <br>
  `parrafo { background-color: blueviolet  }` </p>  
- 
 * ##### Clases: 
   Para darle formato (aplicar un diseño, un aspecto) a un elemento de html como puede ser un `<p>` se utilizan las clases (class), que van definidas en la hoja de estilos.
 
@@ -68,7 +67,7 @@ El selector funciona como enlace entre el documento y el estilo, especificando l
     Cuando queramos destacar un párrafo sólo tenemos que asignarle esa clase: `<p class='importante'>asi se aplican estilos con clases.</p>`
     
     
- * ##### ID: 
+* ##### ID: 
  
  <p>El atributo global id define un identificador único (ID) el cual no debe repetirse en todo el documento. Su proposito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS).
 
@@ -122,7 +121,8 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
 ### Hojas de estilos en páginas diferentes
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/hojas%20de%20estilos.png?raw=true" alt="muestra de la carpeta estilos, de los diferentes archivos .css que pueden contener y la referencia a esos archivos">
 
-### 
+### Grids
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/grids.PNG?raw=true" alt="diferentes ejemplos de tamños de una celda en columnas ">
 
 
 ## Conclusiones y Recomendaciones
