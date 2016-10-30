@@ -131,18 +131,18 @@ Bootstrap es de código abierto y está disponible en GitHub. Los desarrolladore
 
 ### Formas de poner estilos 
 <ol>
-<li> ** Tags: ** 
+<li> __Tags:__ 
  
     <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/propio%20tag.png?raw=true" alt="ejemplo de poner estilo en un propio tag"> 
     
      </li>
      
-<li> ** Clases: ** 
+<li> __Clases:__ 
        
  <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/clases.png?raw=true" alt="ejemplo de parrafo agregado estilo con clases">
   
 </li>
-<li> ** ID: **
+<li> __ID__
   
    <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/02-css/informe/ejemplos/identificador.PNG?raw=true" alt="ejemplo de parrafo agregado estilo con un identificador">
    
