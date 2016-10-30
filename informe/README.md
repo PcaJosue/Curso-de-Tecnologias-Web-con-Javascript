@@ -39,6 +39,7 @@ El tema de la práctica es: `Introducción a CSS`
 ### CSS 
 
 <p> Hojas de Estilo en Cascada (Cascading Style Sheets), es un mecanismo simple que describe cómo se va a mostrar un documento en la pantalla, o cómo se va a imprimir, o incluso cómo va a ser pronunciada la información presente en ese documento a través de un dispositivo de lectura. Esta forma de descripción de estilos ofrece a los desarrolladores el control total sobre estilo y formato de sus documentos. </p>
+
     
 * #### ¿Para qué sirve CSS?
     CSS se utiliza para dar estilo a documentos HTML y XML, separando el contenido de la presentación. Los Estilos definen la forma de mostrar los elementos HTML y XML. CSS permite a los desarrolladores Web controlar el estilo y el formato de múltiples páginas Web al mismo tiempo. Cualquier cambio en el estilo marcado para un elemento en la CSS afectará a todas las páginas vinculadas a esa CSS en las que aparezca ese elemento.
@@ -75,7 +76,7 @@ El valor de este atributo es una cadena de caracteres opaca: es decir,  el autor
  * ##### Hojas de estilo css
  <p> los estilos CSS pueden estar tanto dentro del archivo de trabajo con extension .html o bien fuera con extension .css solo que, para este ultimo en la hoja de trabajo se debe referenciar donde se encuentra dicho archivo de estilos, asi tambn se puede agregar diferentes hojas de estilos pero si tags comunes se sobre escriben siempre quedará vigente el último.</p>
  
-  * ##### clase containers
+* ##### clase containers
     *   Contenedores facilitan la igualdad
     *   El W3-container ofrece igualdad de todos los elementos contenedores HTML:
         *   márgenes comunes
