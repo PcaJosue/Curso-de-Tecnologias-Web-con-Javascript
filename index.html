@@ -69,21 +69,29 @@
                 },
                 {nombre:'andres',apellido:'pacheco'}
                 
-            ]
+            ],
+            getNombre: function(){
+                return this.nombre;
+            },
+            getApellido: function(){
+                return this.apellido;
+            },
+            setNombre: function(nuevoNombre){
+                this.nombre=nuevoNombre;
+            }
           }
-        console.log(Josue);
-        console.log('Acceder Nombre');
-        console.log(Josue.nombre);
-        console.log('acceder Apellido')
-        console.log(Josue.apellido);
-        console.log('acceder hermanos')
-        console.log(Josue.hermanos)
-        function getNombreJosue(){
-            return Josue.nombre;
-            
-        }
-        console.log(getNombreJosue());
-    
+//        console.log(Josue);
+//        console.log('Acceder Nombre');
+//        console.log(Josue.nombre);
+//        console.log('acceder Apellido')
+//        console.log(Josue.apellido);
+//        console.log('acceder hermanos')
+//        console.log(Josue.hermanos)
+        //javascript se puede mandar funciones como parametros
+        
+        console.log(Josue.getNombre())
+        Josue.setNombre('alexander')
+        console.log(Josue.getNombre())
     </script>
        
     
