@@ -113,8 +113,21 @@ En el presente informe se dará algunos ejemplos de lo visto anteriormente en cu
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/soa.PNG?raw=true" alt="">
 
 ### Validación
+* hacer un hábito inspeccionar tus páginas web antes de subirlas para verificar errores y buenas prácticas.
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/validacion1.PNG?raw=true" alt="">
+<br>  
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/validacion2.PNG?raw=true" alt="">
+<br>
+* muchas página o aplicaciones ya tienen un sistema de validación incorporado para decirte que está mal antes de subirlo.
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/validacioon.PNG?raw=true" alt="">
 
-<a name="conrec"></a>
+### Hosting
+* recuerda que para tener una página web en internet se debe registrar un dominio para ello debes percatarte que no este dominio no existe todavía.
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/registrardominios.PNG?raw=true" alt="">
+* para registrar un domino se debe tener una ip pública
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/ippublica.PNG?raw=true" alt="">
+* no es lo mismo una ip pública que una privada
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/ipprivada.PNG?raw=true" alt="">
 ## Conclusiones y Recomendaciones
 
  
