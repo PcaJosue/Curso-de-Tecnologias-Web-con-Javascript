@@ -19,7 +19,12 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-        
+ -<a href="#diseño">Diseño</a>
+ -<a href="#calidad">Calidad</a>
+ -<a href="#wai">WAI</a>
+ -<a href="#validacion">Validación</a>
+ -<a href="#seo">SEO</a>
+ -<a href="#hosting">Hosting</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -40,7 +45,7 @@ El tema de la práctica es: `Diseño, calidad, WAI, validacion y Seo`
 ### Construir una página web
 Para realizar una pagina web se necesita el servidor web que desplega los archivos que se tienen,
 y se necesita un servidor de aplicaciones, que sirve la aplicacion, una base de datos que guarden los datos.
-
+<a name="diseño" ></a>
 ### Diseño
  * Para el  diseño web se debe entender que los usuarios son scanners, es decir se necesita mostrar un foco de atencion.
  * menos es más, mientras menos información se le presenta al usuario es mejor, se debe utilizar el espacio de la mejor manera.
@@ -52,14 +57,14 @@ y se necesita un servidor de aplicaciones, que sirve la aplicacion, una base de 
 * vistas del monitor
 * plug-ins asegurarte que tus usuarios tengan acceso a aplicaciones deseadas
 * discapacidades, no dejarles de lado.
-
+<a name="calidad" ></a>
 ### Calidad de la web
 * usar la versión más actual de html que se pueda para tener las mejores capacidades de los navegadores
 * separar los archivos css en diferentes archivos
 * validación web
 * __elemento del título:__ deberian ayudar a encontrarlos facilmente
 * __los formatos de las fechas:__ la mejor manera es yyy-mmmm-ddd
-
+<a name="wai" ></a>
 ### The Web Accessibility Initiative (WAI)
 existen algunos estandares pra realizar paginas web accesibles
 	* ejemplo el alt
@@ -67,17 +72,17 @@ existen algunos estandares pra realizar paginas web accesibles
 	* usar fonts que sean lo mejor posible legibles para los usuarios.
 	* usar buenas mezclas de colores en los contrastes
 	* siempre poner un background-color , ya que a veces se tienen imagenes y no se va a ver de la mejor manera
-
+<a name="validacion" ></a>
 ### Validación
 * Un validador es un programa de software que puede ver páginas web en contra de los estándares web.
 * Cuando se utiliza un dispositivo de validación para comprobar los documentos HTML, XHTML o CSS, el validador devuelve una lista de los errores encontrados, de acuerdo con el estándar elegido.
 * Asegúrate de hacer un hábito para validar todas sus páginas web antes de publicar.
-
+<a name="seo" ></a>
 ### SEO Search Engine Optimization
 se busca optimizar para que el sitio sea visto en plataformas de búsqueda, y se debe tener la persepción de que existen cosas
 para ser encontrados más rápido.
  * un ejemplo se puede subir su sitio a los diferentes directorios de los buscadores.
- 
+ <a name="hosting" ></a>
 ### Hosting
 Se necesita tener una ip pública para poder publicar y que sus páginas sean vistos en el internet, esta ip debe ser fija para que
 los usuarios puedan conectarse y encontrar los archivos, se tienen ips publicas e ips privadas 
@@ -155,9 +160,14 @@ siguiendo con los ejemplos de bootstrap veremos que más podemos seguir haciendo
 * __tablas__
  * se puede dar formatos a las tablas como a cada celda
  <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/tablas.PNG?raw=true" alt="">
-## Conclusiones y Recomendaciones
 
- 
+<a name="conrec" ></a>
+## Conclusiones y Recomendaciones
+* es necesario realizar un buen diseño antes de ponernos a programar puesto que una página web sera vista y ejecutada por el usuario, no se debe dejar de lado los feedbacks del usuario y es necesario realizar una mejora continua.
+* se entendió que  no solo es subir un página web sino que hay que analizar un buen número de posibilidades de hardware y software para tener una página web de calidad
+* la accesibilidad en páginas web es muy importante puesto que nuestras páginas están al alcance de todo el mundo, y no se debe dejar de lado a personas con discapacidad.
+* bootstrap es una podera herramienta para hacer nuestras páginas web con calidad y de mejor diseño.
+
 
 <br>
 <a href="#cabecera">A la cabecera</a>
