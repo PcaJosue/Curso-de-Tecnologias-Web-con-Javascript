@@ -97,12 +97,15 @@ los usuarios puedan conectarse y encontrar los archivos, se tienen ips publicas 
 * __Dominio__
  * registrar un dominio 
  * elegir un nombre es importante, que debe ser corto y claro y que explique la pagina web
+ 
 <a name="desarrollo"></a>
 ## Desarrollo del informe
 En el presente informe se dará algunos ejemplos de lo visto anteriormente en cuanto a Diseño, calidad, WAI, validacion y Seo.
+
 ### Diseño 
 * para una rápida carga de la página web se deben emplear técnica como comprensión de código y cambio de variables.
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/css%20minimazado.PNG?raw=true" alt="analisis del código de una página web donde se ve que está comprimido el código">
+
 * que el usuario interactue con tu página web para dar feedbacks es una cosa buena, te ayuda a ver errores que pasan de tu vista y realizar una mejora continua.
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/votar.PNG?raw=true" alt="página web del comercio donde pone emogis para que el usuario vote por los artículos.">
 ### Calidad
@@ -123,11 +126,35 @@ En el presente informe se dará algunos ejemplos de lo visto anteriormente en cu
 
 ### Hosting
 * recuerda que para tener una página web en internet se debe registrar un dominio para ello debes percatarte que no este dominio no existe todavía.
+
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/registrardominios.PNG?raw=true" alt="">
+
 * para registrar un domino se debe tener una ip pública
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/ippublica.PNG?raw=true" alt="">
+
 * no es lo mismo una ip pública que una privada
+
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/ipprivada.PNG?raw=true" alt="">
+
+### Bootstrap
+siguiendo con los ejemplos de bootstrap veremos que más podemos seguir haciendo con esto:
+
+* __Forms__
+
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/forms.PNG?raw=true" alt="">
+
+* __Tipografía__
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/tipografia.PNG?raw=true" alt="">
+
+* __Blockquotes__
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/block.PNG?raw=true" alt="">
+
+* __USER inputs__
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/input.PNG?raw=true" alt="">
+
+* __tablas__
+ * se puede dar formatos a las tablas como a cada celda
+ <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/tablas.PNG?raw=true" alt="">
 ## Conclusiones y Recomendaciones
 
  
