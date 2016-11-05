@@ -173,9 +173,12 @@ siguiendo con los ejemplos de bootstrap veremos que más podemos seguir haciendo
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/forms.PNG?raw=true" alt="">
 
 * __Tipografía__
+
+
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/tipografia.PNG?raw=true" alt="">
 
 * __Blockquotes__
+
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/bootstrap/informe/block.PNG?raw=true" alt="">
 
 * __USER inputs__
