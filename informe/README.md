@@ -19,12 +19,12 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
- -<a href="#diseño">Diseño</a>
- -<a href="#calidad">Calidad</a>
- -<a href="#wai">WAI</a>
- -<a href="#validacion">Validación</a>
- -<a href="#seo">SEO</a>
- -<a href="#hosting">Hosting</a>
+ - <a href="#diseño">Diseño</a>
+ - <a href="#calidad">Calidad</a>
+ - <a href="#wai">WAI</a>
+ - <a href="#validacion">Validación</a>
+ - <a href="#seo">SEO</a>
+ - <a href="#hosting">Hosting</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
