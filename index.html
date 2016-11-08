@@ -5,93 +5,22 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <script>
-        //alert("hola");
-        //console.log("hola desde la consola");
-//        var texto="Texto";
-//        var numero=1;
-//    
-//        var textoNumero="2";
-//        console.log("valor cuando es numero");
-//         console.log(textoNumero);
-//        textoNumero=2;
-//        console.log("valor cuando es texto");
-//         console.log(textoNumero);
-//        
-//        var float=1.223;
-//        var booleanTrue=true;
-//        var booleanFalse=false;
-//        var varNull=null;
-//        var varUndefined= undefined;
-//        
-//        console.log(texto);
-//        
-//         console.log(numero);
-//         console.log("valor cuando es float");
-//        textoNumero=float;
-//        console.log(float);
-//         console.log("valor cuando es booleanTrue");
-//        textoNumero=booleanTrue;
-//        console.log(booleanTrue);
-//         console.log("valor cuando es booleanFalse");
-//        textoNumero=booleanFalse;
-//        console.log(booleanFalse);
-//         console.log("valor cuando es Null");
-//        textoNumero=varNull;
-//        console.log(varNull);
-//         console.log("valor cuando es undefined");
-//        textoNumero=varUndefined;
-//        console.log(varUndefined);
-//        ARREGLOS
-//        var arregloString=['a','b','c'];
-//        var arregloNumeros= [1,2,3];
-//        var arregloBooleano=[false,true,true];
-//        var arregloNull=[null,null,null];
-//        var arregloUndefined=[undefined,undefined];
-//        console.log(arregloString);
-//        console.log(arregloNumeros);
-//        console.log(arregloBooleano);
-//        console.log(arregloNull);
-//        console.log(arregloUndefined);
-//        
-//        
-//        var arregloTodo=['a',1,false,null,undefined];
-//        console.log(arregloTodo);
-//        OBJETOS
-//los objetos json son utilizados para comunicarse por la web debido que son menos pesados ya que utiliza menos caracteres.
-        var Josue={
-            'nombre':'Josue',
-            'apellido':'Pacheco',
-            edad: 22,
-            mascotas:['cachetes','oso','bj'],
-            hermanos:[
-                {nombre:'daniel',
-                    apellido:'pacheco'
-                },
-                {nombre:'andres',apellido:'pacheco'}
-                
-            ],
-            getNombre: function(){
-                return this.nombre;
-            },
-            getApellido: function(){
-                return this.apellido;
-            },
-            setNombre: function(nuevoNombre){
-                this.nombre=nuevoNombre;
-            }
-          }
-//        console.log(Josue);
-//        console.log('Acceder Nombre');
-//        console.log(Josue.nombre);
-//        console.log('acceder Apellido')
-//        console.log(Josue.apellido);
-//        console.log('acceder hermanos')
-//        console.log(Josue.hermanos)
-        //javascript se puede mandar funciones como parametros
+       console.log("empieza");
+        var count=10;
+        var arregloNumero=[];
+        while(count>0){
+          
+            console.log(count);
+            if(count%2==0){console.log("el numero" + count + " es par");}
+                else{console.log("el numero" +count +"es impar");}
+            arregloNumero.push(count);
+            count--;
+        }
+        console.log("se acaba")
+        arregloNumero.pop();
+        arregloNumero.splice(0,1,4);
+        console.log("arreglo:[" + arregloNumero+ "]");
         
-        console.log(Josue.getNombre())
-        Josue.setNombre('alexander')
-        console.log(Josue.getNombre())
     </script>
        
     
