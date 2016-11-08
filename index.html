@@ -22,9 +22,9 @@
 //        console.log("arreglo:[" + arregloNumero+ "]");
 //        
 //        
-//        var numSheep=4;
-//        var monthNumber=1;
-//        var monthsToPrint=12;
+        var numSheep=4;
+        var monthNumber=1;
+       var monthsToPrint=12;
 //        
 //        do{ 
 //             numSheep=numSheep*4;
@@ -36,28 +36,59 @@
 //            console.log(i);
 //            
 //        }    
-        
+//        
 //        for( monthNumber; monthNumber<=monthsToPrint; monthNumber++)
 //            {
 //            numSheep=numSheep*4;
 //             console.log("There will be " + numSheep + " after " + monthNumber + " month(s)! "  ); 
+//             if(monthNumber%4==0){
+//                 console.log("    removing " + numSheep*0.75 + " sheep from the population");
+//                 numSheep=numSheep*0.25;
+//             }
+//                else{
+//                if(numSheep>10000){ numSheep=numSheep/2;
+//                                console.log("    removing " + numSheep + " sheep from the population");
+//                               } }
 //                
+//           }
+//        
+//    
+//    var count =10;
+//        while(count>0){
+//            
+//            if(count%2==0){
+//                console.log("el numero "+ count + " es par");
 //            }
+//            
+//        
+//            count--;
+//        }
+        console.log(multiplicar(9,2,6));
+        console.log(masof2(5,10));
+       function multiplicar(uno,dos,tres){
+           
+           return uno * dos * tres;
+       }
+    function masof2(a,b){
+        if( a > b) { return a + "a es mayor que "+ b}
+        if(b>a){return b + " es mayor que " + a}
+        else{ return  a + " y "+  b+ "los dos numeros son iguales"}
+    }
         
-    
-    var count =10;
-        while(count>0){
+        console.log(mystery(4,7));
+        function mystery(x,y){return (4*x*y)+(3*y+5);}
+        console.log(feedPerRanger(4,2));
+        function feedPerRanger(currente,parkRangers){
+            return "Each Park Ranger should load "+ (currente*2/parkRangers)+ " lbs of feed today";
             
-            if(count%2==0){
-                console.log("el numero "+ count + " es par");
-            }
-            
-        
-            count--;
         }
         
+        var movie1=[16,"candles"];
+        var movie2=[3,"men","and","a","baby"];
+        var eightiesmovies =[movie1,movie2];
         
-        
+        var infant = eightiesmovies[1][4];
+        console.log(infant);
     </script>
        
     
