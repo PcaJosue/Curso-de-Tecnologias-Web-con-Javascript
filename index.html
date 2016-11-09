@@ -124,6 +124,35 @@
         console.log(puzzlers[1](7));
         console.log(puzzlers[2](7));
         console.log(puzzlers[3](7));
+        
+        
+        function adventureSelector (userChoise){
+            if(userChoise==1){return function(){alert("you selecter the vines of Doom!");}}
+            if(userChoise==2){return function(){alert("Looks like you want the Lake of Despair!");}}
+            if(userChoise==3){return function(){alert("The caves of Catastrophe");}}
+        };
+        console.log(adventureSelector(1)());
+        console.log(adventureSelector(2)());
+        console.log(adventureSelector(3)());
+        
+          var puzzlers = [
+                        function(input){return (3* input-8);},
+                        function(input){return (Math.pow((input + 2),3));},
+                        function(input){return (Math.pow(input,2)-9);},
+                        function(input){return (input % 4);}                                        
+                           ];
+        var start=5;
+        
+      var applyAndEmpty=function (input,queue){
+          var resutaldo=input;  
+          for(var i = 0 ; i<queue.length ;i++){
+             input=queue[i](input);
+              queue.splice(0,1);
+            }
+            console.log(queue);
+            return input;
+        }
+      console.log(applyAndEmpty(start,puzzlers));
     </script>
        
     
