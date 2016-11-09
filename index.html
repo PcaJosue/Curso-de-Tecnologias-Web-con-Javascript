@@ -63,38 +63,67 @@
 //        
 //            count--;
 //        }
-        console.log(multiplicar(9,2,6));
-        console.log(masof2(5,10));
-       function multiplicar(uno,dos,tres){
-           
-           return uno * dos * tres;
-       }
-    function masof2(a,b){
-        if( a > b) { return a + "a es mayor que "+ b}
-        if(b>a){return b + " es mayor que " + a}
-        else{ return  a + " y "+  b+ "los dos numeros son iguales"}
-    }
+//        console.log(multiplicar(9,2,6));
+//        console.log(masof2(5,10));
+//       function multiplicar(uno,dos,tres){
+//           
+//           return uno * dos * tres;
+//       }
+//    function masof2(a,b){
+//        if( a > b) { return a + "a es mayor que "+ b}
+//        if(b>a){return b + " es mayor que " + a}
+//        else{ return  a + " y "+  b+ "los dos numeros son iguales"}
+//    }
+//        
+//        console.log(mystery(4,7));
+//        function mystery(x,y){return (4*x*y)+(3*y+5);}
+//        console.log(feedPerRanger(4,2));
+//        function feedPerRanger(currente,parkRangers){
+//            return "Each Park Ranger should load "+ (currente*2/parkRangers)+ " lbs of feed today";
+//            
+//        }
+//        
+//        var movie1=[16,"candles"];
+//        var movie2=[3,"men","and","a","baby"];
+//        var eightiesmovies =[movie1,movie2];
+//        var count=0;
+//        var infant = eightiesmovies[1][4];
+//        console.log(infant);
+//        var arreglo=[1,"2",3,"4",5,"seis",];
+//        for(var i=0;i<arreglo.length;i++)
+//            {
+//                if(typeof arreglo[i]=="string"){count++;}
+//            }
+//        console.log("numero de strings:"+ count);
+    
         
-        console.log(mystery(4,7));
-        function mystery(x,y){return (4*x*y)+(3*y+5);}
-        console.log(feedPerRanger(4,2));
-        function feedPerRanger(currente,parkRangers){
-            return "Each Park Ranger should load "+ (currente*2/parkRangers)+ " lbs of feed today";
-            
-        }
+//        var passengers=[['Thomas','Meeks'],['Gregg','Pollack'],['Cristhian','Wong'],['Dan','MacGaw']];
+//        var modifiedNames=passengers.map(function(ArrayNombreApellido){
+//            return ArrayNombreApellido[0]+ " " + ArrayNombreApellido[1];
+//            
+//        });
+//        console.log(modifiedNames);
+//        
+//        modifiedNames.map(function(nombrePasajero){
+//            alert("Yo, "+ nombrePasajero + " !");
+//        })
+       
+        var puzzlers = [
+                        function(input){return (3* input-8);},
+                        function(input){return (Math.pow((input + 2),3));},
+                        function(input){return (Math.pow(input,2)-9);},
+                        function(input){return (input % 4);}                                        
+                           ];
         
-        var movie1=[16,"candles"];
-        var movie2=[3,"men","and","a","baby"];
-        var eightiesmovies =[movie1,movie2];
-        var count=0;
-        var infant = eightiesmovies[1][4];
-        console.log(infant);
-        var arreglo=[1,"2",3,"4",5,"seis",];
-        for(var i=0;i<arreglo.length;i++)
-            {
-                if(typeof arreglo[i]=="string"){count++;}
-            }
-        console.log("numero de strings:"+ count);
+        console.log(puzzlers[0](5));
+        console.log(puzzlers[1](5));
+        console.log(puzzlers[2](5));
+        console.log(puzzlers[3](5));
+        
+        console.log(puzzlers[0](7));
+        console.log(puzzlers[1](7));
+        console.log(puzzlers[2](7));
+        console.log(puzzlers[3](7));
     </script>
        
     

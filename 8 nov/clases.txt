@@ -1,4 +1,0 @@
-splice argumentos
-	1: indice
-	2: cuantos elementos
-	3: opcionar si se quiere añadir mas elementos
