@@ -12,13 +12,13 @@ var usuarios =[{
     id:2,
     nombre:'juan',
     cedula:'65498765987'
-    
 },{
     id:3,
     nombre:'carlos',
     cedula:'65798465987'
     
 }];
+var contador =3;
 app.get('/TecnologiasWeb', function (req, res) {
   
     res.send('Hola Mundo');
@@ -39,6 +39,18 @@ app.get('/Usuario/:idUsuario', function (req, res) {
     }
     res.send('No existe el Usuario');
     
+})
+app.post('/Usuario', function (req, res) {
+    var nuevoUsuario={
+        id:contador+1,
+        nombre:req.query.nombre,
+        cedula:req.query.cedula
+    };
+  if(!req.query.nombre){res.send('no envio el nombre');};  
+  if(!req.query.cedula){res.send('no envio la cedula');};
+    usuarios.push(nuevoUsuario);
+  contador++;
+    res.json(nuevoUsuario);
 })
 app.post('/TecnologiasWeb', function (req, res) {
   
