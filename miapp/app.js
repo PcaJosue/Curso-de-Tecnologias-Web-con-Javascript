@@ -14,9 +14,13 @@ app.post('/TecnologiasWeb', function (req, res) {
     //request=> req
   //response => res
     var usuario={
-        nombre:'Adrian',
+        nombre:'Josue',
         cedula:'00000000'
     };
+    usuario.apellido='Pacheco';
+    usuario.mascota=[];
+    usuario.casado=false;
+    
     console.log('Lo que tengo en el requeste es: ');
     console.log(req.headers);
     console.log('Lo que tengo en el response es: ');
