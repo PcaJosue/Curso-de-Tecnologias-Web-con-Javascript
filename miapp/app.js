@@ -1,85 +1,126 @@
-//Localhost:5050/TecnologiasWeb?
-//nombre=josue&cedula=17267991608
-
 var express = require('express');
+
+var fs = require('fs');
 var app = express();
-var usuarios =[{
-    id:1,
-    nombre:'pepe',
-    cedula:'123465987'
+
+var puerto = 6060;
+
+var usuarios = [
+    {
+        id:1,
+        nombre:'Pepe',
+        cedula:'123409182'
+    },
+    {
+        id:2,
+        nombre:'Carlos',
+        cedula:'981237918'
+    },
+    {
+        id:3,
+        nombre:'Juan',
+        cedula:'011283934'
+    }
+]
+var contador = 3
+
+var quepasa='esta por leer el archivo'
+console.log(quepasa);
+
+quepasa= 'termino de leer el archivo';
+console.log(quepasa);
+
+var todo='';
+
+
+app.get('/', function (req, res) {
+    console.log('1 antes de leer');
+   fs.readFile('./paginas/pagina.html','utf8',function(error,archivoleido1){
+       todo+=archivoleido1;
+   fs.readFile('./paginas/usuario.html','utf8',function(error,archivoleido2){
+       todo+=archivoleido2;
+   res.send(todo);
     
-},{
-    id:2,
-    nombre:'juan',
-    cedula:'65498765987'
-},{
-    id:3,
-    nombre:'carlos',
-    cedula:'65798465987'
+})
     
-}];
-var contador =3;
-app.get('/TecnologiasWeb', function (req, res) {
-  
-    res.send('Hola Mundo');
 });
+   console.log('2 parece que termino de leer');
+})
+
+
 app.get('/Usuario', function (req, res) {
 
     res.json(usuarios);
     
 })
 
+
 app.get('/Usuario/:idUsuario', function (req, res) {
     
     var idActual = req.params.idUsuario;
+    
     for(var i=0;i<usuarios.length;i++){
+        //Buscamos en todo el arreglo de Usuarios
         if(idActual == usuarios[i].id){
+            //respondemos al usuario con idActual
             res.json(usuarios[i]);
         }
     }
+       
+    //Si no lo encuentra responda que no existe
     res.send('No existe el Usuario');
     
 })
+
+
 app.post('/Usuario', function (req, res) {
-    var nuevoUsuario={
+    
+    
+    console.log(req.query.nombre);
+    
+    console.log(req.query.cedula);
+    
+    if(!req.query.nombre){
+        res.send('No envio el nombre');
+    }
+    
+    if(!req.query.cedula){
+        res.send('No envio la cedula');
+    }
+    
+    var nuevoUsuario = {
         id:contador+1,
         nombre:req.query.nombre,
         cedula:req.query.cedula
-    };
-  if(!req.query.nombre){res.send('no envio el nombre');};  
-  if(!req.query.cedula){res.send('no envio la cedula');};
+    }
     usuarios.push(nuevoUsuario);
-  contador++;
-    res.json(nuevoUsuario);
+    contador = contador+1;
+    res.json(nuevoUsuario)
+
+//    //Deprecated
+//    console.log(req.param('nombre'));
+//    
+//    //Busca el parametro nombre
+//    console.log(req.query.nombre);
+//    
+//    //Parametros URL
+//    //console.log(req.params);
+//
+//    res.json(usuarios);
+    
 })
-app.post('/TecnologiasWeb', function (req, res) {
-  
-    //request=> req
-  //response => res
-    var parametros = req.params;
-    
-    var usuario={
-        nombre:'Josue',
-        cedula:'00000000'
-    };
-    usuario.apellido='Pacheco';
-    usuario.mascota=[];
-    usuario.casado=false;
-    
-//    console.log('Lo que tengo en el requeste es: ');
-//    console.log(req.headers);
-//    console.log('Lo que tengo en el response es: ');
-   res.append('token','1234');
-    
-    //res.send('Hola mundo Con Post');
-    res.json(usuario);
-    
-});
 
-app.put('/TecnologiasWeb', function (req, res) {
-  res.send('Hola mundo con put');
-});
-app.listen(5050, function () {
-  console.log('hola mundo');
-});
+app.put('/Usuario/:idUsuario', function (req, res) {
+    //implementacion
+    //El Usuario Actualizado
+})
 
+app.delete('/Usuario/:idUsuario', function (req, res) {
+    //implementacion
+    //El Usuario Borrado
+})
+
+
+app.listen(puerto, function () {
+    console.log('Example app listening on port ' + puerto + '!')
+})
