@@ -34,9 +34,6 @@ El tema de la práctica es: `NPM`
 
 <a name="marco-teorico"></a>
 ## Marco Teorico
-
-** NPM ** 
-
 - NPM es el gestor de paquetes para JavaScript. Buscar, compartir y reutilizar los paquetes de código de cientos de miles de desarrolladores - y ensamblarlos en nuevas y poderosas formas.
 
 - node esta basado en el motor v8 de google chrome.
@@ -55,26 +52,35 @@ luego de esto se necesita publicar el paquete al npm
 ## Desarrollo del informe
 
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/node.JPG?raw=true" alt="">
+
 existe la consola de comandos de node , la cual trabaja con javascript por lo que se puede probar código del mismo.
 
 
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/varnode.JPG?raw=true" alt="">
+
 en este caso se ha declarado una variable e impreso en consola.
 
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/navegadorvariable.JPG?raw=true" alt="">
+
 se observa que en la consola de node y en el navegador se ejecuta lo mismo por lo que ambos ejecutan y trabajan con javascript. por lo que se puede entender que los paquetes que se creearan serán ejecutados con lenguaje javascript.
 
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/versiondenode.JPG?raw=true" alt="">
+
 este comando es utilizado para ver la versión de node, y que los paquetes que se utilizan sean compatibles.
 
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/app.PNG?raw=true" alt="">
+
 se escribió el código de una calculadora sumamente simple que suma dos números ya establecidos y muestra en pantalla el resultado, module.exports sirve para que nuestro paquete pueda ser usado por otros usuarios.
 
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/crearpaqueteennode.JPG?raw=true" alt="">
+
 > node adduser
+
+
 Para comenzar a compartir un paquete debemos crear un usuario con el comando donde podemos ingresar nombre , clave , etc.
 
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/loggearseennpm.JPG?raw=true" alt="">
+
 nos loggeamos en npm mediante la consola con el comando
 > npm login
 
@@ -94,9 +100,11 @@ para instalar un paquete nuestro o uno de npm digitamos el comando:
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/modificarVersion.JPG?raw=true" alt="">
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/updatev1.0.1.JPG?raw=true" alt="">
 
+
 al momento de modificar un paquete debemos modificar la version y esto lo podemos hacer en el paquete.json que se carga al crear el paquete.
 
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/04-nodejs-01/Informe/clases/desinstalarpaquetes.JPG?raw=true" alt="">
+
  para desinstalar un paquete usamos:
 > npm uninstall [nombre del paquete]
 
@@ -104,7 +112,8 @@ al momento de modificar un paquete debemos modificar la version y esto lo podemo
 
 <a name="conrec"></a>
 ## Conclusiones y Recomendaciones
-
+- npm es un buen gestor para compartir contendio en javascript
+- node es uno de los servidores para javascript muy conocido y usado
 
 
 
