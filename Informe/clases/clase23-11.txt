@@ -12,4 +12,4 @@ npm init : se le va a dar un nombre al paquete llamado tecnologias web
 que sirve como firma y para describir y poder subir al repositorio
 de npm y donde se especifica el main en el caso nuestro el main.js
 
-luego de esto se necesita publicar el paquete al npm
+luego de esto se necesita publicar el paquete al npm 
