@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto ECMAScript 2015</title>
-     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
+    <title>var vs let vs const</title>
+ <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\app.css">
-    
+
 </head>
-
-<body style="background-color:#e0dddd;">
-
-  <div class="top-bar">
+<body>
+     <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -35,24 +33,41 @@
       
       </ul>
   </div>
-  <div class="top-bar-right">
-    <ul class="menu">
-      <li class="menu-text">Andrés Jacome - Josué Pacheco - FOUNDATION6 </li>    
-    </ul>
-  </div>
-  </div>
-<br>
-<br>
-<br>
+   </div>
+   
+<h2 class="text-center">Declaración de Variables</h2> <h4 class="subheader text-center">var vs let vs constr</h4>
 <div class="row" style="background-color:#e0dddd;">
- <div class="large-3  columns"><h4><dl>Bienvenidos a <dt>!ECMAScript 2015!</dt></dl></h4></div>
-  <div class="large-5  columns"><img src="https://web2033.com/wp-content/uploads/2015/06/ecmascript6.png"  alt=""></div>
-<div class="large-4  columns">ECMAScript es una especificación de lenguaje de programación publicada por ECMA International. El desarrollo empezó en 1996 y estuvo basado en el popular lenguaje JavaScript propuesto como estándar por Netscape Communications Corporation. Actualmente está aceptado como el estándar ISO 16262. ECMAScript define un lenguaje de tipos dinámicos ligeramente inspirado en Java y otros lenguajes del estilo de C. Soporta algunas características de la programación orientada a objetos mediante objetos basados en prototipos y pseudoclases.</div>
-    </div> 
-<br>
-<br>
+  <div class="small-11 small-centered columns">
+    <h5>var tiene errores en la anterior versión puesto que cada inicialización es elevada.</h5>
+<pre>
+<code class="JavaScript hljs"> var snack = 'Meow Mix';
+function getFood(food) {
+if (food) { var snack = 'Friskies';
+    return snack;  }
+return snack;}
+getFood(false); // undefined
+</code>
+</pre>
 
-<a class="small expanded button" href="#"><h4>Empecemos!</h4></a>
+<h5>con let no es elevada y se queda en su ámbito de trabajo</h5>  
+    <pre><code class="JavaScript">let snack = 'Meow Mix';
+function getFood(food) {
+    if (food) {
+        let snack = 'Friskies';
+        return snack; }
+    return snack;
+}     getFood(false); // 'Meow Mix'
+    </code></pre>
+    
+<h5>const es usado para declarar objetos que no se van a modificar, pero si se pueden aumentar</h5>   
+<pre><code class="JavaScript">    const url = 'http://localhost:1337';
+</code></pre></div>
+</div> 
+<br><br>
+
+<a class="expanded button success " href="#">Siguiente</a>
+
+<a href="" class="small expanded button  ">HOME</a>
 
 </body>
 <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\jquery.js"></script>
