@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     11/12/2016 16:10:40                          */
+/* Created on:     11/12/2016 16:20:43                          */
 /*==============================================================*/
 
 
@@ -25,6 +25,7 @@ create table CLIENTE
    NOMBRECLIENTE        varchar(50) not null,
    DIRECCIONCLIENTE     varchar(100),
    TELEFONOCLIENTE      varchar(10),
+   PASSWORD             varchar(100) not null,
    primary key (CEDULACLIENTE)
 );
 
@@ -85,6 +86,7 @@ create table VENDEDOR
    TELEFONOVENDEDOR     varchar(10) not null,
    NIVEL                int not null,
    DESCRIPCIONVENDEDOR  varchar(100) not null,
+   PASSWORDVENDEDOR     char(10) not null,
    primary key (CEDULAVENDEDOR)
 );
 
