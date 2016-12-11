@@ -1,5 +1,0 @@
-https://sudheerdev.github.io/Foundation5CheatSheet/
-http://foundation.zurb.com/sites/docs/button.html
-https://drive.google.com/drive/folders/0BykrLtGfC4omU0ZfSFFIU3R1RlE
-https://plnkr.co/edit/t700FKfqlE0tMfXgpIU4?p=preview
-https://github.com/DrkSephy/es6-cheatsheet#var-versus-let--const

@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto ECMAScript 2015</title>
+    <title>IIEFs ahora Blocks</title>
+</head>
+<body>
      <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\app.css">
-    
-</head>
-
-<body style="background-color:#e0dddd;">
-
-  <div class="top-bar">
+      
+   <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -41,19 +39,33 @@
     </ul>
   </div>
   </div>
-<br>
-<br>
-<br>
+
+<h2 class="text-center">Problemas Con Bloques</h2> <h4 class="subheader text-center">IIEFs vs Blocks</h4>
 <div class="row" style="background-color:#e0dddd;">
- <div class="large-3  columns"><h4><dl>Bienvenidos a <dt>!ECMAScript 2015!</dt></dl></h4></div>
-  <div class="large-5  columns"><img src="https://web2033.com/wp-content/uploads/2015/06/ecmascript6.png"  alt=""></div>
-<div class="large-4  columns">ECMAScript es una especificación de lenguaje de programación publicada por ECMA International. El desarrollo empezó en 1996 y estuvo basado en el popular lenguaje JavaScript propuesto como estándar por Netscape Communications Corporation. Actualmente está aceptado como el estándar ISO 16262. ECMAScript define un lenguaje de tipos dinámicos ligeramente inspirado en Java y otros lenguajes del estilo de C. Soporta algunas características de la programación orientada a objetos mediante objetos basados en prototipos y pseudoclases.</div>
-    </div> 
-<br>
-<br>
+  <div class="small-11 small-centered columns">
+    <h5>Un uso común de las expresiones de función inmediatamente invocadas es incluir valores dentro de su ámbito de aplicación.</h5>
+<pre>
+<code class="JavaScript hljs">(function () {
+    var food = 'Meow Mix';}());
+console.log(food); // Reference Error
+</code>
+</pre>
 
-<a class="small expanded button" href="varvsletvsconst.html"><h4>Empecemos!</h4></a>
+<h5>En ES6, ahora tenemos la capacidad de crear ámbitos basados en bloques y por lo tanto no están limitados puramente a ámbito basado en funciones.</h5>  
+    <pre><code class="JavaScript">{let food = 'Meow Mix';};
+console.log(food); // Reference Error   </code></pre>
+    
+</div>
+</div> 
+  <br><br>
+<a class="expanded button success " href="Arrowfunctions.html">Siguiente</a>
 
+<a href="principal.html" class="small expanded button  ">HOME</a>
+    
+    
+    
+    
+    
 </body>
 <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\jquery.js"></script>
     <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\what-input.js"></script>

@@ -2,15 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto ECMAScript 2015</title>
-     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
+    <title>Strings .Include y .repeat</title>
+<link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\app.css">
-    
 </head>
-
-<body style="background-color:#e0dddd;">
-
-  <div class="top-bar">
+<body>
+   <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -41,19 +38,43 @@
     </ul>
   </div>
   </div>
-<br>
-<br>
-<br>
+
+    <h2 class="text-center">Strings .Include() y .Repeat()</h2> 
+    <h4 class="subheader">Con ES6, la biblioteca estándar ha crecido enormemente. Junto con estos cambios están los nuevos métodos que se pueden utilizar en cadenas, como .includes () y .repeat ().</h4>
 <div class="row" style="background-color:#e0dddd;">
- <div class="large-3  columns"><h4><dl>Bienvenidos a <dt>!ECMAScript 2015!</dt></dl></h4></div>
-  <div class="large-5  columns"><img src="https://web2033.com/wp-content/uploads/2015/06/ecmascript6.png"  alt=""></div>
-<div class="large-4  columns">ECMAScript es una especificación de lenguaje de programación publicada por ECMA International. El desarrollo empezó en 1996 y estuvo basado en el popular lenguaje JavaScript propuesto como estándar por Netscape Communications Corporation. Actualmente está aceptado como el estándar ISO 16262. ECMAScript define un lenguaje de tipos dinámicos ligeramente inspirado en Java y otros lenguajes del estilo de C. Soporta algunas características de la programación orientada a objetos mediante objetos basados en prototipos y pseudoclases.</div>
-    </div> 
-<br>
-<br>
+  <div class="small-11 small-centered columns">
+    <h5>.includes( )</h5>
+<pre>
+<code class="JavaScript hljs">var string = 'food';
+var substring = 'foo';
+console.log(string.indexOf(substring) > -1);
+</code>
+</pre>
+<h6>En lugar de buscar un valor de retorno> -1 para denotar contención de string, podemos simplemente usar .includes () que devolverá un booleano:</h6>    
+<pre>
+<code class="JavaScript hljs">const string = 'food';
+const substring = 'foo';
+console.log(string.includes(substring)); // true</code>
+</pre>    <br>
+    <h5>.Repeat( )</h5>
+<pre>
+<code class="JavaScript hljs"> function repeat(string, count) {
+    var strings = [];
+    while(strings.length &ang;  count) {
+        strings.push(string);  }
+    return strings.join('');}     </code>
+</pre><br>
+<h6>En ES6, ahora tenemos acceso a una implementación terser:</h6> 
+  <pre>
+<code class="JavaScript hljs"> // String.repeat(numberOfRepetitions)
+'meow'.repeat(3); // 'meowmeowmeow'    </code>
+</pre>   
+   </div></div> 
+   <br><br>
+  
+<a class="expanded button success " href="templateLiterals.html">Siguiente</a>
 
-<a class="small expanded button" href="varvsletvsconst.html"><h4>Empecemos!</h4></a>
-
+<a href="principal.html" class="small expanded button  ">HOME</a>
 </body>
 <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\jquery.js"></script>
     <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\what-input.js"></script>

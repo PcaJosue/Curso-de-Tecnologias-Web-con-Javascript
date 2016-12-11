@@ -2,15 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto ECMAScript 2015</title>
-     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
+    <title>Destructurin Arrays</title>
+    <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\app.css">
-    
 </head>
-
-<body style="background-color:#e0dddd;">
-
-  <div class="top-bar">
+<body>
+    <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -41,19 +38,33 @@
     </ul>
   </div>
   </div>
-<br>
-<br>
-<br>
+<h2 class="text-center">Destructuring Arrays</h2> 
+    
 <div class="row" style="background-color:#e0dddd;">
- <div class="large-3  columns"><h4><dl>Bienvenidos a <dt>!ECMAScript 2015!</dt></dl></h4></div>
-  <div class="large-5  columns"><img src="https://web2033.com/wp-content/uploads/2015/06/ecmascript6.png"  alt=""></div>
-<div class="large-4  columns">ECMAScript es una especificación de lenguaje de programación publicada por ECMA International. El desarrollo empezó en 1996 y estuvo basado en el popular lenguaje JavaScript propuesto como estándar por Netscape Communications Corporation. Actualmente está aceptado como el estándar ISO 16262. ECMAScript define un lenguaje de tipos dinámicos ligeramente inspirado en Java y otros lenguajes del estilo de C. Soporta algunas características de la programación orientada a objetos mediante objetos basados en prototipos y pseudoclases.</div>
-    </div> 
-<br>
-<br>
+  <div class="small-11 small-centered columns">
+    <h5>La desestructuración nos permite extraer valores de arrays y objetos (incluso profundamente anidados) y almacenarlos en variables con una sintaxis más conveniente.</h5>
+    <h6>Antes:</h6>
+<pre>
+<code class="JavaScript hljs"> var arr = [1, 2, 3, 4];
+var a = arr[0];
+var b = arr[1];
+var c = arr[2];
+var d = arr[3];
+</code>
+</pre>
+  <h6>Ahora:</h6>  
+    <pre>
+<code class="JavaScript hljs"> let [a, b, c, d] = [1, 2, 3, 4];
+console.log(a); // 1
+console.log(b); // 2
+</code>
+</pre>
+    </div></div>
+     <br><br>
+  
+<a class="expanded button success " href="#">Siguiente</a>
 
-<a class="small expanded button" href="varvsletvsconst.html"><h4>Empecemos!</h4></a>
-
+<a href="principal.html" class="small expanded button  ">HOME</a>
 </body>
 <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\jquery.js"></script>
     <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\what-input.js"></script>

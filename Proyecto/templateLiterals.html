@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto ECMAScript 2015</title>
+    <title>Template Literals</title>
      <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\app.css">
-    
 </head>
-
-<body style="background-color:#e0dddd;">
-
-  <div class="top-bar">
+<body>
+   <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -41,19 +38,62 @@
     </ul>
   </div>
   </div>
-<br>
-<br>
-<br>
+ 
+    <h2 class="text-center">Template Literals</h2> 
+    
 <div class="row" style="background-color:#e0dddd;">
- <div class="large-3  columns"><h4><dl>Bienvenidos a <dt>!ECMAScript 2015!</dt></dl></h4></div>
-  <div class="large-5  columns"><img src="https://web2033.com/wp-content/uploads/2015/06/ecmascript6.png"  alt=""></div>
-<div class="large-4  columns">ECMAScript es una especificación de lenguaje de programación publicada por ECMA International. El desarrollo empezó en 1996 y estuvo basado en el popular lenguaje JavaScript propuesto como estándar por Netscape Communications Corporation. Actualmente está aceptado como el estándar ISO 16262. ECMAScript define un lenguaje de tipos dinámicos ligeramente inspirado en Java y otros lenguajes del estilo de C. Soporta algunas características de la programación orientada a objetos mediante objetos basados en prototipos y pseudoclases.</div>
-    </div> 
-<br>
-<br>
+  <div class="small-11 small-centered columns">
+    <h5>Usando Template Literals, ahora podemos construir cadenas que tienen caracteres especiales en ellas sin necesidad de escaparlas explícitamente.</h5>
+<pre>
+<code class="JavaScript hljs"> var text = "This string contains \"double quotes\" which are escaped.";
+let text = `This string contains "double quotes" which don't need to be escaped anymore.`;
+</code>
+</pre>
+   
+    <h5>Los literales de plantilla también admiten interpolación, lo que hace que la tarea de concatenar cadenas y valores:</h5>
+<pre>
+<code class="JavaScript hljs"> var name = 'Tiger';
+var age = 13;
+console.log('My cat is named ' + name + ' and is ' + age + ' years old.');
+</code>
+</pre>
+    <h5>Mas Simpe:</h5>
+    <pre>
+<code class="JavaScript hljs"> const name = 'Tiger';
+const age = 13;
+console.log(`My cat is named ${name} and is ${age} years old.`);
+</code>
+</pre>
+   
+    <h5>Para concatenar varias lineas antes:</h5>
+    <pre>
+<code class="JavaScript hljs">var text = (
+    'cat\n' +
+    'dog\n' +
+    'nickelodeon');
+</code>
+</pre>
+   <h5>Ahora:</h5>
+    <pre>
+<code class="JavaScript hljs">let text = ( `cat
+dog
+nickelodeon`);
+</code>
+</pre>
+   
+   <h5>Los literales de plantilla también pueden aceptar expresiones:</h5>
+   <pre>
+<code class="JavaScript hljs">let today = new Date();
+let text = `The time and date is ${today.toLocaleString()}`;
+</code>
+</pre>
+   
+    </div></div>
+     <br><br>
+  
+<a class="expanded button success " href="DestructurinArrays.html">Siguiente</a>
 
-<a class="small expanded button" href="varvsletvsconst.html"><h4>Empecemos!</h4></a>
-
+<a href="principal.html" class="small expanded button  ">HOME</a>
 </body>
 <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\jquery.js"></script>
     <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\what-input.js"></script>

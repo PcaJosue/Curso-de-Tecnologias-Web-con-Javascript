@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Proyecto ECMAScript 2015</title>
+    <title>Arrow Functions</title>
      <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\foundation.css">
     <link rel="stylesheet" href="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\css\app.css">
-    
 </head>
-
-<body style="background-color:#e0dddd;">
-
-  <div class="top-bar">
+<body>
+    
+   
+       <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -41,21 +40,43 @@
     </ul>
   </div>
   </div>
-<br>
-<br>
-<br>
+<h2 class="text-center">Funciones Flecha</h2> 
 <div class="row" style="background-color:#e0dddd;">
- <div class="large-3  columns"><h4><dl>Bienvenidos a <dt>!ECMAScript 2015!</dt></dl></h4></div>
-  <div class="large-5  columns"><img src="https://web2033.com/wp-content/uploads/2015/06/ecmascript6.png"  alt=""></div>
-<div class="large-4  columns">ECMAScript es una especificación de lenguaje de programación publicada por ECMA International. El desarrollo empezó en 1996 y estuvo basado en el popular lenguaje JavaScript propuesto como estándar por Netscape Communications Corporation. Actualmente está aceptado como el estándar ISO 16262. ECMAScript define un lenguaje de tipos dinámicos ligeramente inspirado en Java y otros lenguajes del estilo de C. Soporta algunas características de la programación orientada a objetos mediante objetos basados en prototipos y pseudoclases.</div>
-    </div> 
-<br>
-<br>
+  <div class="small-11 small-centered columns">
+    <h5>¿Cuántas veces has programado  un código con una estructura similar a la siguiente?</h5>
+<pre>
+<code class="JavaScript hljs">// ES5
+// Imaginemos una variable data que incluye un array de objetos
+var data = [{...}, {...}, {...}, ...];  
+data.forEach(function(elem){  
+// Tratamos el elemento
+    console.log(elem)});
+</code>
+</pre>
 
-<a class="small expanded button" href="varvsletvsconst.html"><h4>Empecemos!</h4></a>
+<h5>Con la función arrow => de ES6, el código anterior se sustituiría por:</h5>  
+    <pre><code class="JavaScript">//ES6
+var data = [{...}, {...}, {...}, ...];  
+data.forEach(elem => {  
+    console.log(elem);});   </code></pre>
+    <h5>Mucho más limpio y claro. CoffeeScript (un metalenguaje que compila a JavaScript) usa algo parecido.
+    Incluso la podemos utilizar así:</h5>  
+    <pre><code class="JavaScript">// ES5
+var miFuncion = function(num) {  
+    return num + num;}
+// ES6
+var miFuncion = (num) => num + num;   </code></pre>
+    
+</div>
+</div> 
+  <br><br>
+  
+<a class="expanded button success " href="stringsRepeatInclude.html">Siguiente</a>
 
+<a href="principal.html" class="small expanded button  ">HOME</a>
+    
 </body>
-<script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\jquery.js"></script>
+ <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\jquery.js"></script>
     <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\what-input.js"></script>
     <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\vendor\foundation.js"></script>
     <script src="C:\Users\ALEXANDER\Documents\GitHub\Curso-de-Tecnologias-Web-con-Javascript\Proyecto\foundation-6.2.4-complete\js\app.js"></script>
