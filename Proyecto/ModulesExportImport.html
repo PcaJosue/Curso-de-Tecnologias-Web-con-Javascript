@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modules - Export and Import</title>
+   <link rel="stylesheet" href="foundation.min.css">
+</head>
+<body>
+    <div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+       <a href="#">Selecciona Un Tema</a>
+        <ul class="menu vertical">
+          <li><a href="varvsletvsconst.html">1.var vs let vs const</a></li>
+          <li><a href="IIEFsahoraBlocks.html">2.IIFEs ahora Blocks</a></li>
+          <li><a href="Arrowfunctions.html">3.Arrow Functions</a></li>
+          <li><a href="stringsRepeatInclude.html">4.Strings .includes() .repeat()</a></li>
+          <li><a href="templateLiterals.html">5.Template literals</a></li>
+          <li><a href="DestructurinArrays.html">6.Destructuring arrays</a></li>
+          <li><a href="DestructurinObjects.html">7.Destructuring objects</a></li>
+          <li><a href="ModulesExportImport.html">8.Modules export and import</a></li>
+          <li><a href="DefaultRestNamedParameters.html">9.Default Parameters, Rest Parameters, Named Parameters</a></li>
+          <li><a href="SpreadOperator.html">10.Spread Operator</a></li>
+          <li><a href="Classes.html">11.Classes</a></li>
+          <li><a href="Promises.html">12.Promises (goodbye callback hell)</a></li>
+          <li><a href="GetterSetterClasses.html">13.Getter and Setter in Classes</a></li>
+            
+        </ul>
+      </li>
+      
+      </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li class="menu-text">Andrés Jacome - Josué Pacheco - FOUNDATION6 </li>    
+    </ul>
+  </div>
+  </div>
+<h2 class="text-center">Modules</h2> 
+    <h4>Export</h4>
+<div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+    <h5>
+    Antes de ES6, usábamos libreriías como Browserify para crear módulos en el lado del cliente, y requerirlas em Node.js. Con ES6, podemos directamente usar módulos de todos los tipos (AMD y CommonJS).
+    </h5>
+    <h6>Exportar en CommonJS:</h6>
+<pre>
+<code class="JavaScript hljs">module.exports = 1;
+module.exports = { foo: 'bar' };
+module.exports = ['foo', 'bar'];
+module.exports = function bar () {};
+</code>
+</pre>
+  <h6>Exportar en ES6:</h6>  
+    <h6>Con ES6, tenemos varios tipos de exportación. Podemos realizar Exportaciones Nombradas:</h6>  
+   
+    <pre>
+<code class="JavaScript hljs"> export let name = 'David';
+export let age  = 25;
+</code>
+</pre>
+   <h6>Así como exportar una lista de objetos:</h6>  
+   
+    <pre>
+<code class="JavaScript hljs"> function sumTwo(a, b) {
+    return a + b;
+}
+
+function sumThree(a, b, c) {
+    return a + b + c;
+}
+
+export { sumTwo, sumThree };
+</code>
+</pre>
+  
+  <h6>También podemos exportar funciones, objetos y valores (etc.) simplemente usando la palabra clave export:</h6>  
+   
+    <pre>
+<code class="JavaScript hljs"> export function sumTwo(a, b) {
+    return a + b;
+}
+
+export function sumThree(a, b, c) {
+    return a + b + c;
+}
+</code>
+</pre>
+  </div></div>
+     <br><br>
+  <h4>Import</h4>
+<div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+    <h6>ES6 nos provee varias formas de importar. Podemos importar un archivo entero:</h6>
+<pre>
+<code class="JavaScript hljs">import 'underscore';
+</code>
+</pre>
+   <h6>Similar a Python, tenemos importaciones nombradas:</h6>
+<pre>
+<code class="JavaScript hljs">import { sumTwo, sumThree } from 'math/addition';
+</code>
+</pre>
+   <h6>Además, podemos importar todas las cosas </h6>
+<pre>
+<code class="JavaScript hljs">import * as util from 'math/addition';
+</code>
+</pre>
+   <h6>Por uúltimo, podemos importar una lista de valores desde un moódulo: </h6>
+<pre>
+<code class="JavaScript hljs">import * as additionUtil from 'math/addition';
+const { sumTwo, sumThree } = additionUtil;
+</code>
+</pre>
+    
+  </div></div>
+     <br><br>
+<a class="expanded button success " href="DefaultRestNamedParameters.html">Siguiente</a>
+
+<a href="index.html" class="small expanded button  ">HOME</a>
+</body>
+<script src="jquery.js"></script>
+<script src="what-input.js"></script>
+<script src="foundation.js"></script>
+<script src="app.js"></script>
+</html>
+
+
+
+    

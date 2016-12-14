@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>var vs let vs const</title>
- <link rel="stylesheet" href="foundation.min.css">
-
+    <title>Destructuring Objects</title>
+   <link rel="stylesheet" href="foundation.min.css">
 </head>
 <body>
-   <div class="top-bar">
+    <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -38,44 +37,40 @@
     </ul>
   </div>
   </div>
-
-<h2 class="text-center">Declaración de Variables</h2> <h4 class="subheader text-center">var vs let vs constr</h4>
+<h2 class="text-center">Destructuring Objects</h2> 
+    
 <div class="row" style="background-color:#e0dddd;">
   <div class="small-11 small-centered columns">
-    <h5>var tiene errores en la anterior versión puesto que cada inicialización es elevada.</h5>
+    <h5>La desestructuración nos permite extraer valores de arrays y objetos (incluso profundamente anidados) y almacenarlos en variables con una sintaxis más conveniente.</h5>
+    <h6>Antes:</h6>
 <pre>
-<code class="JavaScript hljs"> var snack = 'Meow Mix';
-function getFood(food) {
-if (food) { var snack = 'Friskies';
-    return snack;  }
-return snack;}
-getFood(false); // undefined
+<code class="JavaScript hljs"> var luke = { occupation: 'jedi', father: 'anakin' };
+var occupation = luke.occupation; // 'jedi'
+var father = luke.father; // 'anakin'
 </code>
 </pre>
+  <h6>Ahora:</h6>  
+    <pre>
+<code class="JavaScript hljs"> let luke = { occupation: 'jedi', father: 'anakin' };
+let {occupation, father} = luke;
 
-<h5>con let no es elevada y se queda en su ámbito de trabajo</h5>  
-    <pre><code class="JavaScript">let snack = 'Meow Mix';
-function getFood(food) {
-    if (food) {
-        let snack = 'Friskies';
-        return snack; }
-    return snack;
-}     getFood(false); // 'Meow Mix'
-    </code></pre>
-    
-<h5>const es usado para declarar objetos que no se van a modificar, pero si se pueden aumentar</h5>   
-<pre><code class="JavaScript">    const url = 'http://localhost:1337';
-</code></pre></div>
-</div> 
-<br><br>
-
-<a class="expanded button success " href="IIEFsahoraBlocks.html">Siguiente</a>
+console.log(occupation); // 'jedi'
+console.log(father); // 'anakin'
+</code>
+</pre>
+    </div></div>
+     <br><br>
+  
+<a class="expanded button success " href="ModulesExportImport.html">Siguiente</a>
 
 <a href="index.html" class="small expanded button  ">HOME</a>
-
 </body>
 <script src="jquery.js"></script>
 <script src="what-input.js"></script>
 <script src="foundation.js"></script>
 <script src="app.js"></script>
 </html>
+
+
+
+    

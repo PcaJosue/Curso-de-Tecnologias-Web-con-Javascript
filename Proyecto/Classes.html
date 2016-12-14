@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>var vs let vs const</title>
- <link rel="stylesheet" href="foundation.min.css">
-
+    <title>Classes</title>
+   <link rel="stylesheet" href="foundation.min.css">
 </head>
 <body>
-   <div class="top-bar">
+    <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -38,44 +37,82 @@
     </ul>
   </div>
   </div>
-
-<h2 class="text-center">Declaración de Variables</h2> <h4 class="subheader text-center">var vs let vs constr</h4>
-<div class="row" style="background-color:#e0dddd;">
-  <div class="small-11 small-centered columns">
-    <h5>var tiene errores en la anterior versión puesto que cada inicialización es elevada.</h5>
-<pre>
-<code class="JavaScript hljs"> var snack = 'Meow Mix';
-function getFood(food) {
-if (food) { var snack = 'Friskies';
-    return snack;  }
-return snack;}
-getFood(false); // undefined
-</code>
-</pre>
-
-<h5>con let no es elevada y se queda en su ámbito de trabajo</h5>  
-    <pre><code class="JavaScript">let snack = 'Meow Mix';
-function getFood(food) {
-    if (food) {
-        let snack = 'Friskies';
-        return snack; }
-    return snack;
-}     getFood(false); // 'Meow Mix'
-    </code></pre>
+<h2 class="text-center">Classes</h2> 
     
-<h5>const es usado para declarar objetos que no se van a modificar, pero si se pueden aumentar</h5>   
-<pre><code class="JavaScript">    const url = 'http://localhost:1337';
-</code></pre></div>
-</div> 
-<br><br>
+    
+<div class="row">
+ <h5>Antes de ES6, implementábamos clases creando una función constructor y añadiendo propiedades extendiendo el prototipo:
+</h5>
+ <div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">function Person(name, age, gender) {
+    this.name   = name;
+    this.age    = age;
+    this.gender = gender;
+}
 
-<a class="expanded button success " href="IIEFsahoraBlocks.html">Siguiente</a>
+Person.prototype.incrementAge = function () {
+    return this.age += 1;
+};</code>
+</pre>
+    </div></div></div>
+     <br><br>
+     
+     <div class="row">
+ <h5>ES6 provee mucha más sintáctica para realizar esto. Podemos crear clases directamente:
+</h5>
+ <div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">class Person {
+    constructor(name, age, gender) {
+        this.name   = name;
+        this.age    = age;
+        this.gender = gender;
+    }
+
+    incrementAge() {
+      this.age += 1;
+    }
+}</code>
+</pre>
+    </div></div></div>
+    <br><br>
+    
+     <div class="row">
+ <h5>Y extenderlas usando la palabra clave extends:</h5>
+ <div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">class Personal extends Person {
+    constructor(name, age, gender, occupation, hobby) {
+        super(name, age, gender);
+        this.occupation = occupation;
+        this.hobby = hobby;
+    }
+
+    incrementAge() {
+        super.incrementAge();
+        this.age += 20;
+        console.log(this.age);
+    }
+}</code>
+</pre>
+    </div></div></div>
+     <br><br>
+     
+  
+<a class="expanded button success " href="Promises.html">Siguiente</a>
 
 <a href="index.html" class="small expanded button  ">HOME</a>
-
 </body>
 <script src="jquery.js"></script>
 <script src="what-input.js"></script>
 <script src="foundation.js"></script>
 <script src="app.js"></script>
 </html>
+
+
+
+    

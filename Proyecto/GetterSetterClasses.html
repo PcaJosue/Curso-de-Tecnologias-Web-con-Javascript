@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Getter and Setter Functions</title>
+   <link rel="stylesheet" href="foundation.min.css">
+</head>
+<body>
+    <div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+       <a href="#">Selecciona Un Tema</a>
+        <ul class="menu vertical">
+          <li><a href="varvsletvsconst.html">1.var vs let vs const</a></li>
+          <li><a href="IIEFsahoraBlocks.html">2.IIFEs ahora Blocks</a></li>
+          <li><a href="Arrowfunctions.html">3.Arrow Functions</a></li>
+          <li><a href="stringsRepeatInclude.html">4.Strings .includes() .repeat()</a></li>
+          <li><a href="templateLiterals.html">5.Template literals</a></li>
+          <li><a href="DestructurinArrays.html">6.Destructuring arrays</a></li>
+          <li><a href="DestructurinObjects.html">7.Destructuring objects</a></li>
+          <li><a href="ModulesExportImport.html">8.Modules export and import</a></li>
+          <li><a href="DefaultRestNamedParameters.html">9.Default Parameters, Rest Parameters, Named Parameters</a></li>
+          <li><a href="SpreadOperator.html">10.Spread Operator</a></li>
+          <li><a href="Classes.html">11.Classes</a></li>
+          <li><a href="Promises.html">12.Promises (goodbye callback hell)</a></li>
+          <li><a href="GetterSetterClasses.html">13.Getter and Setter in Classes</a></li>
+            
+        </ul>
+      </li>
+      
+      </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li class="menu-text">Andrés Jacome - Josué Pacheco - FOUNDATION6 </li>    
+    </ul>
+  </div>
+  </div>
+<h2 class="text-center">Getter and Setter Functions</h2> 
+    
+    
+<div class="row">
+ <h5>ES6 ha empezado a secundar funciones getter y setter. Utilizando el siguiendo ejemplo:
+</h5>
+ <div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">class Employee {
+
+    constructor(name) {
+        this._name = name;
+    }
+
+    get name() {
+      if(this._name) {
+        return 'Mr. ' + this._name.toUpperCase();  
+      } else {
+        return undefined;
+      }  
+    }
+
+    set name(newName) {
+      if (newName == this._name) {
+        console.log('I already have this name.');
+      } else if (newName) {
+        this._name = newName;
+      } else {
+        return false;
+      }
+    }
+}
+
+var emp = new Employee("James Bond");
+
+// uses the get method in the background
+if (emp.name) {
+  console.log(emp.name);  // Mr. JAMES BOND
+}
+
+// uses the setter in the background
+emp.name = "Bond 007";
+console.log(emp.name);  // Mr. BOND 007  
+</code>
+</pre>
+    </div></div></div>
+     <br><br>
+     
+     <div class="row">
+ <h5>Los últimos navegadores están también secundando funciones getter/setter en Objetos y podemos utilizarlos para propiedades calculadas, añadiendo listeners y preprocesando antes de utilizar get/set:
+</h5>
+ <div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">var person = {
+  firstName: 'James',
+  lastName: 'Bond',
+  get fullName() {
+      console.log('Getting FullName');
+      return this.firstName + ' ' + this.lastName;
+  },
+  set fullName (name) {
+      console.log('Setting FullName');
+      var words = name.toString().split(' ');
+      this.firstName = words[0] || '';
+      this.lastName = words[1] || '';
+  }
+}
+
+person.fullName; // James Bond
+person.fullName = 'Bond 007';
+person.fullName; // Bond 007</code>
+</pre>
+    </div></div></div>
+    <br><br>
+    
+    
+     
+  
+<a class="expanded button success " href="index.html">Siguiente</a>
+
+<a href="index.html" class="small expanded button  ">HOME</a>
+</body>
+<script src="jquery.js"></script>
+<script src="what-input.js"></script>
+<script src="foundation.js"></script>
+<script src="app.js"></script>
+</html>
+
+
+
+    

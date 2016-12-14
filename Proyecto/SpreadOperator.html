@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>var vs let vs const</title>
- <link rel="stylesheet" href="foundation.min.css">
-
+    <title>Spread Operator</title>
+   <link rel="stylesheet" href="foundation.min.css">
 </head>
 <body>
-   <div class="top-bar">
+    <div class="top-bar">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li>
@@ -38,44 +37,51 @@
     </ul>
   </div>
   </div>
-
-<h2 class="text-center">Declaración de Variables</h2> <h4 class="subheader text-center">var vs let vs constr</h4>
-<div class="row" style="background-color:#e0dddd;">
-  <div class="small-11 small-centered columns">
-    <h5>var tiene errores en la anterior versión puesto que cada inicialización es elevada.</h5>
-<pre>
-<code class="JavaScript hljs"> var snack = 'Meow Mix';
-function getFood(food) {
-if (food) { var snack = 'Friskies';
-    return snack;  }
-return snack;}
-getFood(false); // undefined
-</code>
-</pre>
-
-<h5>con let no es elevada y se queda en su ámbito de trabajo</h5>  
-    <pre><code class="JavaScript">let snack = 'Meow Mix';
-function getFood(food) {
-    if (food) {
-        let snack = 'Friskies';
-        return snack; }
-    return snack;
-}     getFood(false); // 'Meow Mix'
-    </code></pre>
+<h2 class="text-center">Spread Operator</h2> 
     
-<h5>const es usado para declarar objetos que no se van a modificar, pero si se pueden aumentar</h5>   
-<pre><code class="JavaScript">    const url = 'http://localhost:1337';
-</code></pre></div>
-</div> 
-<br><br>
-
-<a class="expanded button success " href="IIEFsahoraBlocks.html">Siguiente</a>
+    
+<div class="row">
+ <h5>En ES5, podemos encontrar el máximo valor en un array utilizando el método Math.max, así:</h5>
+ <div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">Math.max.apply(null, [-1, 100, 9001, -32]); // 9001</code>
+</pre>
+    </div></div></div>
+     <br><br>
+     
+     <div class="row">
+ <h5>En ES6, podemos utilizar el operador spread para pasar un array de valores para ser usado como parámetro en una función:</h5>
+ <div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">Math.max(...[-1, 100, 9001, -32]); // 9001</code>
+</pre>
+    </div></div></div>
+    <br><br>
+    
+     <div class="row">
+ <h5>Podemos concatenar elementos de un array fácilmente con esta sintaxis intuitiva:</h5>
+ <div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">let cities = ['San Francisco', 'Los Angeles'];
+let places = ['Miami', ...cities, 'Chicago']; // ['Miami', 'San Francisco', 'Los Angeles', 'Chicago']</code>
+</pre>
+    </div></div></div>
+     <br><br>
+     
+  
+<a class="expanded button success " href="Classes.html">Siguiente</a>
 
 <a href="index.html" class="small expanded button  ">HOME</a>
-
 </body>
 <script src="jquery.js"></script>
 <script src="what-input.js"></script>
 <script src="foundation.js"></script>
 <script src="app.js"></script>
 </html>
+
+
+
+    

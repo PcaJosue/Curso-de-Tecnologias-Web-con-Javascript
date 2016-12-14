@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Parameters</title>
+   <link rel="stylesheet" href="foundation.min.css">
+</head>
+<body>
+    <div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+       <a href="#">Selecciona Un Tema</a>
+        <ul class="menu vertical">
+          <li><a href="varvsletvsconst.html">1.var vs let vs const</a></li>
+          <li><a href="IIEFsahoraBlocks.html">2.IIFEs ahora Blocks</a></li>
+          <li><a href="Arrowfunctions.html">3.Arrow Functions</a></li>
+          <li><a href="stringsRepeatInclude.html">4.Strings .includes() .repeat()</a></li>
+          <li><a href="templateLiterals.html">5.Template literals</a></li>
+          <li><a href="DestructurinArrays.html">6.Destructuring arrays</a></li>
+          <li><a href="DestructurinObjects.html">7.Destructuring objects</a></li>
+          <li><a href="ModulesExportImport.html">8.Modules export and import</a></li>
+          <li><a href="DefaultRestNamedParameters.html">9.Default Parameters, Rest Parameters, Named Parameters</a></li>
+          <li><a href="SpreadOperator.html">10.Spread Operator</a></li>
+          <li><a href="Classes.html">11.Classes</a></li>
+          <li><a href="Promises.html">12.Promises (goodbye callback hell)</a></li>
+          <li><a href="GetterSetterClasses.html">13.Getter and Setter in Classes</a></li>
+            
+        </ul>
+      </li>
+      
+      </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li class="menu-text">Andrés Jacome - Josué Pacheco - FOUNDATION6 </li>    
+    </ul>
+  </div>
+  </div>
+<h2 class="text-center">Parámetros</h2> 
+   <h6>En ES5, teníamos varias formas de tratar con funciones que necesitaban valores por defecto, argumentos indefinidos, y parámetros nombrados. Con ES6, podemos lograr todo esto y más utilizando una sintaxis más concisa.
+   </h6>
+    <h5>Parámetros por Defecto</h5>
+<div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<code class="JavaScript hljs">function addTwoNumbers(x, y) {
+    x = x || 0;
+    y = y || 0;
+    return x + y;
+}
+</code>
+</pre>
+  <h6>En ES6, podemos simplemente proveer valores por defecto en un función:</h6>  
+    <pre>
+<code class="JavaScript hljs"> function addTwoNumbers(x=0, y=0) {
+    return x + y;
+}
+</code>
+</pre>
+   </div></div>
+     <br><br>
+   
+   <h5>Parámetros REST</h5>
+<div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<h6>En ES5, teníamos un número indefinido de argumentos tal como:</h6>  
+<code class="JavaScript hljs">function logArguments() {
+    for (var i=0; i < arguments.length; i++) {
+        console.log(arguments[i]);
+    }
+}
+</code>
+</pre>
+  <h6>Utilizando el parámetro REST, podemos pasar una cantidad indefinida de argumentos:</h6>  
+    <pre>
+<code class="JavaScript hljs"> function logArguments(...args) {
+    for (let arg of args) {
+        console.log(arg);
+    }
+}
+</code>
+</pre>
+   
+    </div></div>
+     <br><br>
+     
+     <h5>Parámetros Nombrados</h5>
+<div class="row" style="background-color:#e0dddd;">
+  <div class="small-11 small-centered columns">
+<pre>
+<h6>Uno de los patrones en ES5 para tratar parámetros nombrados era utilizar las opciones de objeto patrón, adoptado de jQuery:
+</h6>  
+<code class="JavaScript hljs">function initializeCanvas(options) {
+    var height = options.height || 600;
+    var width  = options.width  || 400;
+    var lineStroke = options.lineStroke || 'black';
+}
+</code>
+</pre>
+  <h6>Podemos lograr la misma funcionalidad utilizando destructuring como un parámetro formal de una función</h6>  
+    <pre>
+<code class="JavaScript hljs"> ffunction initializeCanvas(
+    { height=600, width=400, lineStroke='black'}) {
+        // Use variables height, width, lineStroke here
+    }
+</code>
+</pre>
+   
+    </div></div>
+     <br><br>
+  
+<a class="expanded button success " href="SpreadOperator.html">Siguiente</a>
+
+<a href="index.html" class="small expanded button  ">HOME</a>
+</body>
+<script src="jquery.js"></script>
+<script src="what-input.js"></script>
+<script src="foundation.js"></script>
+<script src="app.js"></script>
+</html>
+
+
+
+    
