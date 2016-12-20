@@ -28,3 +28,9 @@ el sails les pide opcones si no estan definidas, las opciones son:
 ## Servidor Web de sailsjs
 el servidor web de sails se encuentra localizado en la carpeta
 **assets**
+
+Para generar controladores se utiliza el siguiente comando:
+´´´
+> sails generate controller
+
+´´´
