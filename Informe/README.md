@@ -19,7 +19,11 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marco-teorico">Marco Teorico</a>
-    
+    - <a href="#sails">Sails</a>
+    - <a href="#assets">Assets</a>
+    - <a href="#Views">Views</a>
+    - <a href="#Pipeline">Pipeline</a>
+    - <a href="#Controllers">Controllers</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
 - <a href="#conrec">Conclusiones y Recomendaciones</a> 
 
@@ -89,8 +93,9 @@ Controladores (la C en MVC ) son los principales objetos de la aplicación Sails
 
 * en los archivos descritos anteriormente se tiene el siguiente código:
 
- 1. index.html
-    ```
+1. **index.html**
+   
+   ```javascript
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,11 +108,13 @@ Controladores (la C en MVC ) son los principales objetos de la aplicación Sails
 </body>
 </html> ```
    
- 2. app.js
- ```alert("No es bueno usar alertas"); ```
+ 2. **app.js**
+ ```javascript
+ alert("No es bueno usar alertas"); ```
  
- 3. estilos.css
- ``` body{
+ 3. **estilos.css**
+ ```javascript
+ body{
     background-color:darkseagreen;
     color:aliceblue;
 }```
@@ -136,10 +143,89 @@ Controladores (la C en MVC ) son los principales objetos de la aplicación Sails
 * ahora el homepage se ve asi:
 <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/homepageEditado.JPG?raw=true" alt="">
 
+* Para crear propias vistas agregamos archivos a esta carpeta en este caso se utilizara: quito y guayaquil
+
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/nuevasVistas.JPG?raw=true" alt="">
+
+* al correr las vistas da error
+
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/errorVistas.JPG?raw=true" alt="">
+
+* para poder acceder a las vistas , se debe modificar el archivo **routers** ubicado en la carpeta **config** y modificar su contendio así:
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/agregarRutasParaVistas.JPG?raw=true" alt="">
+
+*ahora si se puede ver las vistas creadas
+
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/vistaQuito.JPG?raw=true" alt="">
+
+* se puede modificar el **layout**
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/layout.JPG?raw=true" alt="">
+ 
+* para los controladores se instala con el comando:
+```sails generate controller [nombre del controlador]  ```
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/controlador.JPG?raw=true" alt="">
+
+* esta se graba en la carpeta **controllers** que esta dentro de la carpeta **api**:
+<img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/controlador.JPG?raw=true" alt="">
+
+* modificamos el contendio de dicho archivo:
+```javascript
+module.exports = {
+
+hola: function (req, res) {
+
+
+var parametros = req.allParams()
+
+if (req.method == 'GET') {
+
+    res.json({
+            nombre: 'hola get',
+            para:parametros
+        });
+
+
+} else {
+
+    if (req.method == 'POST') {
+        res.json({
+            nombre: 'hola post'
+        });
+    } else {
+        res.json({
+            nombre: 'hola todos'
+        });
+    }
+
+}
+
+},
+adios: function (req, res) {
+res.send('Adios');
+},
+hora: function (req, res) {
+res.send('Hora');
+}
+
+
+};
+```
+* para verificar los controladores se utiliza el navegado o bien la aplicacion postman del chrome.
+    
+ * <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/hora.JPG?raw=true" alt="">
+
+ * <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/hola.JPG?raw=true" alt="">
+    
+ * <img src="https://github.com/PcaJosue/Curso-de-Tecnologias-Web-con-Javascript/blob/10-sails-01/Informe/postHola.JPG?raw=true" alt="">
+
 <a name="conrec"></a>
 ## Conclusiones y Recomendaciones
+ 
+ 1. se realizo una introducción a Sails
+ 2. se aprendió como se puede crear páginas web de forma más rápida con vistas.
+ 3. se trabajo con los controladores.
+ 
 
-https://github.com/santy-101/Tec_Web/tree/10-Sails-01/Informe
 <br>
 <a href="#cabecera">A la cabecera</a>
 
