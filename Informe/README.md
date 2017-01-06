@@ -106,18 +106,21 @@ Controladores (la C en MVC ) son los principales objetos de la aplicación Sails
 <h1>Hola Mundo</h1>
 <script src="app.js"></script>
 </body>
-</html> ```
+</html>
+```
    
  2. **app.js**
  ```javascript
- alert("No es bueno usar alertas"); ```
+ alert("No es bueno usar alertas"); 
+ ```
  
  3. **estilos.css**
  ```javascript
  body{
     background-color:darkseagreen;
     color:aliceblue;
-}```
+}
+```
 
 * se puede crear más carpetas en el directorio de trabajo por ejemplo una carpeta de imagenes
 
