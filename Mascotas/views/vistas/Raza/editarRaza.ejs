@@ -1,0 +1,16 @@
+<div style='background-color:white;color:black;'>
+
+  <h1>Editar Raza</h1>
+  <p>¡Registra las razas !</p>
+  <form action="/Raza/update/<%=Raza.id%>" method="post" >
+    <div class="form-group">
+      <label>Nombre</label>
+      <input required type="text" class="form-control"  placeholder="<%=Raza.nombre%>" name="nombre">
+    </div>
+    <input type="hidden" name="id" value="<%=Raza.id%>">
+     <button type="submit" class="btn btn-success">Editar Raza</button>
+    
+    <br>
+
+  </form>
+</div>

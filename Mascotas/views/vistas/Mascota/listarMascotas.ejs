@@ -1,0 +1,25 @@
+<div class="row">
+
+  <% for(var i=0; i<mascotas.length; i++){ %>
+  
+  <div class="col-sm-4">
+    <h3 class="text-center"> ID: <%=mascotas[i].id%> -  <%=mascotas[i].nombre%></h3>
+    <% var days=['lunes','martes','miercoles','jueves','viernes','sabado','domingo'];
+      var months=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+      %>
+    <h4 class="text-center">  <%=days[mascotas[i].fechaNacimiento.getDay()]%>, <%=mascotas[i].fechaNacimiento.getUTCDate()%>     <%=months[mascotas[i].fechaNacimiento.getMonth()]%> del <%=mascotas[i].fechaNacimiento.getFullYear()%></h4>
+    <p class="text-center">
+      <%= mascotas[i].paisNacimiento %>
+    </p>
+    
+    <form action="/Mascota/destroy/<%=mascotas[i].id%>" method='POST'>
+    <button  class="btn btn-block btn-danger" value='Eliminar'>Eliminar </button>
+    </form>
+    <br>
+    <a style="color:white" href="/EditarMascota?id=<%=mascotas[i].id%>">
+      <button class="btn btn-block btn-success"> Editar</button>
+    </a>
+  </div>
+  <%  } %>
+
+</div>
